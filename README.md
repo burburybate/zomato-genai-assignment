@@ -44,6 +44,37 @@ To start the app:
 ```bash
 streamlit run nuggetrag.py
 ```
+
+### 🗃️ **Database Schema**
+
+The application uses a SQLite database to store restaurant information and their respective menus. Below is the schema for each table:
+
+#### `restaurant`
+
+| Column   | Type     | Description              |
+|----------|----------|--------------------------|
+| id       | INTEGER  | Primary key              |
+| name     | TEXT     | Name of the restaurant   |
+| location | TEXT     | Address or location info |
+| hours    | TEXT     | Operating hours          |
+| contact  | TEXT     | Contact details          |
+
+#### `menu_items_1` to `menu_items_5`
+
+Each restaurant has its own menu table (e.g., `menu_items_1`, `menu_items_2`, etc.), each following the same structure:
+
+| Column          | Type    | Description                          |
+|------------------|---------|--------------------------------------|
+| id               | INTEGER | Primary key                          |
+| title            | TEXT    | Name of the dish                     |
+| description      | TEXT    | Description of the dish              |
+| price            | TEXT    | Price (stored as a string, e.g. ₹250)|
+| special_feature  | TEXT    | Highlights like "Chef’s Special"     |
+| veg_type         | TEXT    | Veg / Non-Veg / Vegan classification |
+
+> 💡 These `menu_items_*` tables are dynamically generated based on restaurant ID during the scraping process.
+
+
 ### 🧠 **How It Works**
 High-level overview of your architecture.
 
