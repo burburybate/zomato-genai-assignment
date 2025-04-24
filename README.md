@@ -62,6 +62,28 @@ High-level overview of your architecture.
 - Mistral API
 - SQLite
 
+### **Challenges Faced and Solutions**
+
+1.⁠ ⁠*Schema Evolution & Idempotency*:
+   - *Challenge*: Re-running the scraper risked duplicating tables or stale data.
+   - *Solution*: Added ⁠ DROP TABLE IF EXISTS ⁠ and ⁠ CREATE TABLE IF NOT EXISTS ⁠ guards, and parameterized table names by restaurant ID.
+2.⁠ ⁠*Local Development vs. Production*:
+   - *Challenge*: Environment differences between Colab, local machines, and deployment servers.
+   - *Solution*: Abstracted file paths using ⁠ os.path ⁠ to resolve base directories, enabling consistent behavior across environments.
+3.⁠ ⁠*LLM Grounding & Prompt Length*:
+   - *Challenge*: Including too much context (all restaurants and menus) could exceed token limits.
+   - *Solution*: Limited to top-k retrieved contexts and concatenated only restaurant metadata once, keeping prompts concise.
+4.⁠ ⁠*Embedding Scalability*:
+   - *Challenge*: Encoding thousands of menu items in one shot risked memory pressure.
+   - *Solution*: Used batch encoding and checkpointed intermediate results, then freed unused variables promptly.
+5.⁠ ⁠*Embedding Scalability*:
+   - *Challenge*: Some restaurant websites lacked essential info like location, contact details, or hours.
+   - *Solution*:  For these cases only, default values were manually hardcoded into the database.
+
+
+
+
+
 ### 🧪 **Future Improvements**
 - Integrate real-time web scraping
 - Add feedback loop for improving answer quality
