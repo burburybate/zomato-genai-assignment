@@ -16,7 +16,7 @@ NuggetRAG combines local restaurant menu data with semantic search and large lan
 Clone the repo and install dependencies:
 
 ```bash
-git clone https://github.com/yourusername/nuggetrag.git
+git clone https://github.com/burburybate/zomato-genai-assignment
 cd nugget
 pip install sentence-transformers faiss-cpu transformers torch streamlit
 ```
