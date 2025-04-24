@@ -52,6 +52,7 @@ High-level overview of your architecture.
 - ⁠Builds a FAISS index for fast retrieval
 - Retrieves relevant items based on user query
 - Mistral API generates natural responses using retrieved context
+- Streamlit renders a conversational UI.
 
 ### 🧩 **Tech Stack**
 - Python 3
@@ -62,7 +63,7 @@ High-level overview of your architecture.
 - Mistral API
 - SQLite
 
-### **Challenges Faced and Solutions**
+### 😀 **Challenges and Solutions**
 
 1.⁠ ⁠*Schema Evolution & Idempotency*:
    - *Challenge*: Re-running the scraper risked duplicating tables or stale data.
