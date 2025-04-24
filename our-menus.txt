@@ -1,0 +1,4103 @@
+<!DOCTYPE HTML>
+<html lang="en">
+ <head><meta name="twitter:card" content="summary"><meta name="twitter:description" content="Experience unique gastronomic journey at the best Sunday Brunch with Regional Indian, Continental, Western, Asian, Mediterranean cuisine"><meta name="twitter:image" content="https://www.jwkitchenbengaluru.com/resourcefiles/mainimages/jw-kitchen-menu.jpg?version=4072025122744"><meta name="twitter:site" content="@jwmarriottblr"><meta name="twitter:title" content="Multi-cuisine buffet restaurant in Bangalore | JW Kitchen "><meta property="og:image" content="https://www.jwkitchenbengaluru.com/resourcefiles/mainimages/jw-kitchen-menu.jpg?version=4072025122744"><meta property="og:title" content="Multi-cuisine buffet restaurant in Bangalore | JW Kitchen "><meta property="og:description" content="Experience unique gastronomic journey at the best Sunday Brunch with Regional Indian, Continental, Western, Asian, Mediterranean cuisine">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script>
+ var dataLayer = window.dataLayer || [];
+setTimeout(function() {
+ function AdobiScriptLoad(srcUrl, callback) {
+  var d = document,
+   t = 'script',
+   o = d.createElement(t),
+   s = d.getElementsByTagName(t)[0];
+  o.src = srcUrl;
+  if (callback) {
+   o.addEventListener('load', function(e) {
+    callback(null, e);
+   }, false);
+  }
+  s.parentNode.insertBefore(o, s);
+ }
+ AdobiScriptLoad('//assets.adobedtm.com/launch-EN3963523be4674e5591a9c4d516697352.min.js', function() {
+dataLayer.site_id="MDS_Outlet_jwkitchenbengaluru"
+dataLayer.prop_marsha_code="BLRJW";
+dataLayer.rnb_outlet_id="5281613";
+ dataLayer.env_gdpr = "true";
+ dataLayer.env_ccpa = "true";
+dataLayer.env_marketing = "true";
+  const myInterval1 = setInterval(function() {
+   if (GtmToRender()) {
+    /**************** START::: GTM HERE ***********************/
+    (function(w, d, s, l, i) {
+     w[l] = w[l] || [];
+     w[l].push({
+      'gtm.start': new Date().getTime(),
+      event: 'gtm.js'
+     });
+     var f = d.getElementsByTagName(s)[0],
+      j = d.createElement(s),
+      dl = l != 'dataLayer' ? '&l=' + l : '';
+     j.async = true;
+     j.src = '//www.googletagmanager.com/gtm.js?id=' + i + dl;
+     f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-5WT9D4D');
+    /**************** END::: GTM HERE ***********************/
+   }
+   clearInterval(myInterval1);
+  }, 1000);
+
+  function GtmToRender() {
+   var UrlString = getCookieData("OptanonConsent");
+   var UrlStrDeCoded = decodeURIComponent(UrlString);
+   var GroupVal = getQuerystring("groups", "", UrlStrDeCoded);
+   console.log(GroupVal);
+   var string = GroupVal;
+   string = string.split(",");
+   var stringArray = new Array();
+   for (var i = 0; i < string.length; i++) {
+    stringArray.push(string[i]);
+   }
+   if (stringArray[2] == "4:1" || stringArray[3] == "6:1" || typeof(stringArray[3]) == "undefined") {
+    return true;
+   }
+   else {
+    return false;
+   }
+  }
+
+  function getCookieData(name) {
+   name += '=';
+   for (var ca = document.cookie.split(/;\s*/), i = ca.length - 1; i >= 0; i--)
+    if (!ca[i].indexOf(name)) return ca[i].replace(name, '');
+  }
+
+  function getQuerystring(key, default_, Ustring) {
+   if (default_ == null) default_ = "";
+   key = key.replace(/[\[]/, "\\\[").replace(/[\]]/, "\\\]");
+   var regex = new RegExp("[\\?&]" + key + "=([^&#]*)");
+   var qs = regex.exec(Ustring);
+   if (qs == null) return default_;
+   else return qs[1];
+  }
+ });
+}, 5000); 
+/**************** Start Adobe CDL ***************/
+$(document).ready(function(){console.log('adobe datalayer triggerd');setTrackingValuebyCategory();$('.header-reser-no a').attr('data-custom_click_track_value','NavBar | Click-to-Call | External | event458');$('.header-reser-no a').addClass('custom_click_track');$("a[href*='tel:']").each(function(){if($(this).closest("nav").length>0){$(this).attr("data-custom_click_track_value","NavBar | Click-to-Call | External | event458");$(this).addClass('custom_click_track')}else if($(this).closest("footer").length>0){$(this).attr("data-custom_click_track_value","Footer | Click-to-Call | External | event458");$(this).addClass('custom_click_track')}else if($(this).closest(".footer-sticky").length>0){$(this).attr("data-custom_click_track_value","PinnedBar | Click-to-Call | External | event458");$(this).addClass('custom_click_track')}else if($(this).closest(".open-megamenu-wrap").length>0){$(this).attr("data-custom_click_track_value","NavBar | Click-to-Call | External | event458");$(this).addClass('custom_click_track')}})
+$('.con-info.con-call a').attr('data-custom_click_track_value','Body:Contact | Click-to-Call | External | event458');$('.con-info.con-call a').addClass('custom_click_track')})
+function setTrackingValuebyCategory(){var eventcategory=$('#adobetypeID').val();console.log(eventcategory);var eventId='event458';switch(eventcategory){case 'Dining':eventId='event452';break;case 'Spa':eventId='event453';break;case 'Golf':eventId='event454';break;default:eventId='event455';break}
+var navData='NavBar | '+eventcategory+' Res Click | External | '+eventId;var pinnedBarData='PinnedBar | '+eventcategory+' Res Click | External | '+eventId;$('.reserve-btn .booktarget').attr('data-custom_click_track_value',navData);$('.reserve-btn .booktarget').addClass('custom_click_track');$('.footer-mobile .reserve-btn.reserve-btn-click').attr('data-custom_click_track_value',pinnedBarData);$('.footer-mobile .reserve-btn.reserve-btn-click').addClass('custom_click_track');$('.header-bottom-reserv a').attr('data-custom_click_track_value',navData);$('.header-bottom-reserv a').addClass('custom_click_track')}
+ /**************** END Adobe CDL ***************/
+</script>
+  <title>Multi-cuisine buffet restaurant in Bangalore | JW Kitchen </title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="ROBOTS" content="NOARCHIVE">
+  <meta name="description" content="Experience unique gastronomic journey at the best Sunday Brunch with Regional Indian, Continental, Western, Asian, Mediterranean cuisine">
+  <meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, target-densitydpi=160dpi, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=0">
+<!--[if IE]>
+<script type="text/javascript" src="https://www.jwkitchenbengaluru.com/js/html5.aspx"></script>
+<![endif]-->
+
+<link href="https://www.jwkitchenbengaluru.com/css/print.aspx" rel="stylesheet" type="text/css" media="print">
+
+<link rel="icon" href="https://www.jwkitchenbengaluru.com/favicon.ico">
+<!-- 
+
+<link rel="shortcut icon" href="https://www.jwkitchenbengaluru.com/resourcefiles/OtherImages/jw-kitchen-favicon.png" class="dynamiccomponenteditenable" data-Id='261947' data-editbuttontext='' data-Editable='True' >
+
+ -->
+
+
+<script>
+function deferCssLoad(URL,delaySec) {
+    setTimeout(function () {
+    var headSection = document.getElementsByTagName("head")[0];
+    var elementCSS = document.createElement("link");
+    elementCSS.type = "text/css";
+    elementCSS.rel = "stylesheet";
+    elementCSS.href = URL;
+    headSection.appendChild(elementCSS);
+    },delaySec);
+}
+deferCssLoad("https://www.jwkitchenbengaluru.com/css/mimpl-fonts.aspx","3100");
+deferCssLoad("https://www.jwkitchenbengaluru.com/css/mimpl-icon.aspx","3100");
+</script>
+
+    
+  <link href="https://www.jwkitchenbengaluru.com/dynamic/css/with-image.aspx?version=4072025122744" type="text/css" rel="stylesheet">
+  
+ <script id="mjdatamenu" type="application/ld+json">[
+ {
+  "@context": "http://schema.org",
+  "@type": "Menu",
+  "name": "Breakfast",
+  "inLanguage": "English",
+  "publisher": [
+   {
+    "@type": "Restaurant",
+    "name": "JW Kitchen",
+    "telephone": "+91-8884494037",
+    "url": "https://www.marriott.com/en-us/hotels/blrjw-jw-marriott-hotel-bengaluru/overview/",
+    "logo": "https://www.jwkitchenbengaluru.com/resourcefiles/logo/logo-jw-kitchen.jpg",
+    "image": "https://www.jwkitchenbengaluru.com/resourcefiles/logo/logo-jw-kitchen.jpg",
+    "address": {
+     "@type": "PostalAddress",
+     "streetAddress": "JW Marriott Bengaluru, 24/1, Vittal Mallya Rd, KG Halli, Shanthala Nagar, Ashok Nagar,",
+     "addressLocality": "Bangalore",
+     "addressRegion": "Bengaluru",
+     "postalCode": "560001"
+    },
+    "servesCuisine": [
+     "Multi-cuisine"
+    ],
+    "priceRange": "INR 400 onwards"
+   }
+  ],
+  "hasMenuSection": [
+   {
+    "@type": "MenuSection",
+    "name": "Revitalizing Juices",
+    "hasMenuItem": [
+     {
+      "@type": "MenuItem",
+      "name": "ANTI-AGING SOLUTION",
+      "description": "Apple, beetroot, carrot\nFibre | Iron | Vitamin C",
+      "offers": [
+       {
+        "@type": "offer",
+        "price": "400",
+        "priceCurrency": "INR"
+       }
+      ]
+     },
+     {
+      "@type": "MenuItem",
+      "name": "ENERGIZING GREENS",
+      "description": "Spinach, cucumber, celery,\nparsley, lemon, ginger\nIron | Vitamin C | Magnesium",
+      "offers": [
+       {
+        "@type": "offer",
+        "price": "400",
+        "priceCurrency": "INR"
+       }
+      ]
+     },
+     {
+      "@type": "MenuItem",
+      "name": "IMMUNIZING ",
+      "description": "Locally sourced apple, carrot,\nlemon, ginger, black pepper\nAntioxidants | Vitamin C | Potassium",
+      "offers": [
+       {
+        "@type": "offer",
+        "price": "400",
+        "priceCurrency": "INR"
+       }
+      ]
+     },
+     {
+      "@type": "MenuItem",
+      "name": "FRESH FRUIT JUICES ",
+      "description": "Orange\nWatermelon\nPineapple",
+      "offers": [
+       {
+        "@type": "offer",
+        "price": "450",
+        "priceCurrency": "INR"
+       }
+      ]
+     },
+     {
+      "@type": "MenuItem",
+      "name": "SHAKES ",
+      "description": "Cold coffee\nVanilla\nChocolate",
+      "offers": [
+       {
+        "@type": "offer",
+        "price": "450",
+        "priceCurrency": "INR"
+       }
+      ]
+     },
+     {
+      "@type": "MenuItem",
+      "name": "LASSI ",
+      "description": "Sweet / Salted",
+      "offers": [
+       {
+        "@type": "offer",
+        "price": "450",
+        "priceCurrency": "INR"
+       }
+      ]
+     },
+     {
+      "@type": "MenuItem",
+      "name": "BUTTERMILK",
+      "description": "Plain / Masala",
+      "offers": [
+       {
+        "@type": "offer",
+        "price": "450",
+        "priceCurrency": "INR"
+       }
+      ]
+     },
+     {
+      "@type": "MenuItem",
+      "name": "Fresh Tender Cocunut Water",
+      "description": "Locally sourced coconut\nAntioxidants | Magnesium | Potassium",
+      "offers": [
+       {
+        "@type": "offer",
+        "price": "400",
+        "priceCurrency": "INR"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "@type": "MenuSection",
+    "name": "Satisfying Smoothies",
+    "hasMenuItem": [
+     {
+      "@type": "MenuItem",
+      "name": "Luxe Benefit",
+      "description": "Banana, Greek yogurt, spinach\nCalcium | Antioxidants | Omega-3",
+      "offers": [
+       {
+        "@type": "offer",
+        "price": "400",
+        "priceCurrency": "INR"
+       }
+      ]
+     },
+     {
+      "@type": "MenuItem",
+      "name": "Antioxidant Blend",
+      "description": "Passion fruit, Greek yogurt Iron | Antioxidants | Fibre",
+      "offers": [
+       {
+        "@type": "offer",
+        "price": "400",
+        "priceCurrency": "INR"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "@type": "MenuSection",
+    "name": "A Balanced Start",
+    "hasMenuItem": [
+     {
+      "@type": "MenuItem",
+      "name": "Yoghurt",
+      "description": "Home made plain fruit yoghurt\n(blueberry, raspberry, strawberry)\nCalcium | Potassium | Vitamin A |\nVitamin B6 | Vitamin C",
+      "offers": [
+       {
+        "@type": "offer",
+        "price": "350",
+        "priceCurrency": "INR"
+       }
+      ]
+     },
+     {
+      "@type": "MenuItem",
+      "name": "Bircher Muesli",
+      "description": "Soaked oats, grated carrot, apple, cream,\nhoney, raisins\nCalcium | Folate | Iron | Vitamin C, E, K |\nVitamin B6",
+      "offers": [
+       {
+        "@type": "offer",
+        "price": "350",
+        "priceCurrency": "INR"
+       }
+      ]
+     },
+     {
+      "@type": "MenuItem",
+      "name": "Fruit & Chia Yoghurt Bowl",
+      "description": "Home-made yogurt, flaked almond, walnut,\ncashew, chia seed, seasonal fruit, raisins\nVitamin B6 | Potassium | Calcium | Copper",
+      "offers": [
+       {
+        "@type": "offer",
+        "price": "400",
+        "priceCurrency": "INR"
+       }
+      ]
+     },
+     {
+      "@type": "MenuItem",
+      "name": "Cereal",
+      "description": "Cornflakes, wheat flakes, muesli,\nhomemade granola\nMilk selection: full cream milk, almond milk\nCalcium | Vitamin B6 | Potassium",
+      "offers": [
+       {
+        "@type": "offer",
+        "price": "400",
+        "priceCurrency": "INR"
+       }
+      ]
+     },
+     {
+      "@type": "MenuItem",
+      "name": "Hot Oatmeal",
+      "description": "Soft-cooked rolled oats, Himalayan honey,\nseasonal fruit\nIron | Magnesium | Calcium | Vitamin B1",
+      "offers": [
+       {
+        "@type": "offer",
+        "price": "450",
+        "priceCurrency": "INR"
+       }
+      ]
+     },
+     {
+      "@type": "MenuItem",
+      "name": "Seasonal Fruit Platter",
+      "description": "Locally sourced sliced fruit\nVitamin C | Folate | Potassium",
+      "offers": [
+       {
+        "@type": "offer",
+        "price": "450",
+        "priceCurrency": "INR"
+       }
+      ]
+     },
+     {
+      "@type": "MenuItem",
+      "name": "Baker's basket",
+      "description": "Assorted danish, muffins, croissant",
+      "offers": [
+       {
+        "@type": "offer",
+        "price": "400",
+        "priceCurrency": "INR"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "@type": "MenuSection",
+    "name": "International Classics",
+    "hasMenuItem": [
+     {
+      "@type": "MenuItem",
+      "name": "Egg White, Basil, Tomato and Pesto Omelette",
+      "description": "Basil, pesto, tomato, hash brown potato,\ngrilled tomato, bacon rashers, pork or\nchicken sausages\nProtein | Sodium | Calcium",
+      "offers": [
+       {
+        "@type": "offer",
+        "price": "500",
+        "priceCurrency": "INR"
+       }
+      ]
+     },
+     {
+      "@type": "MenuItem",
+      "name": "All American",
+      "description": "Two locally sourced eggs any style,\ngrilled tomato, hash brown potato,\nbacon rashers, pork or chicken sausages",
+      "offers": [
+       {
+        "@type": "offer",
+        "price": "500",
+        "priceCurrency": "INR"
+       }
+      ]
+     },
+     {
+      "@type": "MenuItem",
+      "name": "Eggs Benedict",
+      "description": "Two locally sourced poached eggs,\nEnglish muffin, hollandaise sauce,\ngrilled tomato, hash brown potato,\nbacon rashers, pork or chicken sausages",
+      "offers": [
+       {
+        "@type": "offer",
+        "price": "550",
+        "priceCurrency": "INR"
+       }
+      ]
+     },
+     {
+      "@type": "MenuItem",
+      "name": "Breakfast Sides",
+      "description": "Bacon / Grilled Chicken sausage\nGrilled Pork sausage\nSautéed Mushrooms\nSautéed Vegetables\nBaked Beans",
+      "offers": [
+       {
+        "@type": "offer",
+        "price": "Non Veg 250  Veg 175",
+        "priceCurrency": "INR"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "@type": "MenuSection",
+    "name": "Chef&#8217;s Signature Choice",
+    "hasMenuItem": [
+     {
+      "@type": "MenuItem",
+      "name": "Kalakki Omelette",
+      "description": "Two locally sourced eggs,\nSouth Indian style scrambled egg,\nflavoured with chicken gravy, Indian spices\nserved with Malabar paratha",
+      "offers": [
+       {
+        "@type": "offer",
+        "price": "500",
+        "priceCurrency": "INR"
+       }
+      ]
+     },
+     {
+      "@type": "MenuItem",
+      "name": "Masala Omelette",
+      "description": "Two locally sourced free-range eggs\nomelette with onion, tomato, coriander,\ngreen chilli, grilled tomato, hash brown potato",
+      "offers": [
+       {
+        "@type": "offer",
+        "price": "450",
+        "priceCurrency": "INR"
+       }
+      ]
+     },
+     {
+      "@type": "MenuItem",
+      "name": "Anda Bhurji Pav",
+      "description": "Two locally sourced Indian style eggs\nscrambled with onion, tomato, coriander,\ngreen chilli, turmeric grilled tomato,\nhash brown potato served with\nIndian soft roll.",
+      "offers": [
+       {
+        "@type": "offer",
+        "price": "500",
+        "priceCurrency": "INR"
+       }
+      ]
+     },
+     {
+      "@type": "MenuItem",
+      "name": "Brioche French Toast",
+      "description": "Whipped butter, maple syrup,\nhomemade berry compote",
+      "offers": [
+       {
+        "@type": "offer",
+        "price": "700",
+        "priceCurrency": "INR"
+       }
+      ]
+     },
+     {
+      "@type": "MenuItem",
+      "name": "Belgian Waffle",
+      "description": "Locally sourced fruit compote, maple syrup,\nwhipped butter",
+      "offers": [
+       {
+        "@type": "offer",
+        "price": "700",
+        "priceCurrency": "INR"
+       }
+      ]
+     },
+     {
+      "@type": "MenuItem",
+      "name": "Classic Butter Milk Pancakes",
+      "description": "Locally sourced fruit compote, whipped cream,\nwhipped butter, warm maple syrup",
+      "offers": [
+       {
+        "@type": "offer",
+        "price": "500",
+        "priceCurrency": "INR"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "@type": "MenuSection",
+    "name": "Regional Classics",
+    "hasMenuItem": [
+     {
+      "@type": "MenuItem",
+      "name": "Idlis",
+      "description": "Three pieces: Steamed rice and lentil cake,\nsambhar, homemade chutneys\nProtein | Sodium | Vitamin A",
+      "offers": [
+       {
+        "@type": "offer",
+        "price": "500",
+        "priceCurrency": "INR"
+       }
+      ]
+     },
+     {
+      "@type": "MenuItem",
+      "name": "Dosa",
+      "description": "Thin crisp rice and lentil pancake,served with sambhar, homemade chutneys\nChoice of: Plain/ Onion/ Masala/ Mysore masala\nProtein | Sodium | Potassium",
+      "offers": [
+       {
+        "@type": "offer",
+        "price": "500",
+        "priceCurrency": "INR"
+       }
+      ]
+     },
+     {
+      "@type": "MenuItem",
+      "name": "Uthappam",
+      "description": "Two pieces griddle cooked rice pancake,\nserved with sambhar, homemade chutneys\nChoice of: Plain/ Onion/ Tomato /\nCoriander/ Chillies\nCalcium | Sodium | Potassium",
+      "offers": [
+       {
+        "@type": "offer",
+        "price": "500",
+        "priceCurrency": "INR"
+       }
+      ]
+     },
+     {
+      "@type": "MenuItem",
+      "name": "Medu Vada",
+      "description": "Three pieces: Deep fried lentil dumpling,\n\nserved with sambhar, homemade chutneys",
+      "offers": [
+       {
+        "@type": "offer",
+        "price": "500",
+        "priceCurrency": "INR"
+       }
+      ]
+     },
+     {
+      "@type": "MenuItem",
+      "name": "Vermicelli Upma",
+      "description": "Savoury vermicelli, onion, carrot, green peas,\nserved with sambhar, homemade chutneys",
+      "offers": [
+       {
+        "@type": "offer",
+        "price": "500",
+        "priceCurrency": "INR"
+       }
+      ]
+     },
+     {
+      "@type": "MenuItem",
+      "name": "Poori Bhaji",
+      "description": "Four pieces: Deep fried semolina - wheat bread,\nserved with potato curry",
+      "offers": [
+       {
+        "@type": "offer",
+        "price": "500",
+        "priceCurrency": "INR"
+       }
+      ]
+     },
+     {
+      "@type": "MenuItem",
+      "name": "Paratha",
+      "description": "Choice of stuffing: Potato/ Cauliflower/\nCottage cheese/ Processed Cheese\nTwo pieces: Griddle cooked stuffed\nwhole wheat bread, homemade yoghurt,\npickle",
+      "offers": [
+       {
+        "@type": "offer",
+        "price": "500",
+        "priceCurrency": "INR"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "@context": "http://schema.org",
+  "@type": "Menu",
+  "name": "Lunch & Dinner",
+  "inLanguage": "English",
+  "publisher": [
+   {
+    "@type": "Restaurant",
+    "name": "JW Kitchen",
+    "telephone": "+91-8884494037",
+    "url": "https://www.marriott.com/en-us/hotels/blrjw-jw-marriott-hotel-bengaluru/overview/",
+    "logo": "https://www.jwkitchenbengaluru.com/resourcefiles/logo/logo-jw-kitchen.jpg",
+    "image": "https://www.jwkitchenbengaluru.com/resourcefiles/logo/logo-jw-kitchen.jpg",
+    "address": {
+     "@type": "PostalAddress",
+     "streetAddress": "JW Marriott Bengaluru, 24/1, Vittal Mallya Rd, KG Halli, Shanthala Nagar, Ashok Nagar,",
+     "addressLocality": "Bangalore",
+     "addressRegion": "Bengaluru",
+     "postalCode": "560001"
+    },
+    "servesCuisine": [
+     "Multi-cuisine"
+    ],
+    "priceRange": "INR 400 onwards"
+   }
+  ],
+  "hasMenuSection": [
+   {
+    "@type": "MenuSection",
+    "name": "Soups",
+    "hasMenuItem": [
+     {
+      "@type": "MenuItem",
+      "name": "Mushroom Soup With Confit Garlic",
+      "description": "Wild mushrooms, cream, roasted garlic oil",
+      "offers": [
+       {
+        "@type": "offer",
+        "price": "475",
+        "priceCurrency": "INR"
+       }
+      ]
+     },
+     {
+      "@type": "MenuItem",
+      "name": "Seb Tamatar Shorba",
+      "description": "Tomato, apple, aromatic spices\nVitamin C, A | sodium | potassium",
+      "offers": [
+       {
+        "@type": "offer",
+        "price": "475",
+        "priceCurrency": "INR"
+       }
+      ]
+     },
+     {
+      "@type": "MenuItem",
+      "name": "Chicken Minestrone",
+      "description": "Tomato, chicken, pasta, parmesan, flavoured with basil",
+      "offers": [
+       {
+        "@type": "offer",
+        "price": "525",
+        "priceCurrency": "INR"
+       }
+      ]
+     },
+     {
+      "@type": "MenuItem",
+      "name": "Singaporean Laksa Soup\n(Chicken/Prawn)",
+      "description": "Coconut cream, noodles, galangal,lemongrass",
+      "offers": [
+       {
+        "@type": "offer",
+        "price": "500/ 475",
+        "priceCurrency": "INR"
+       }
+      ]
+     },
+     {
+      "@type": "MenuItem",
+      "name": "Chilli Lemon Soup\n(Vegetable/Chicken)",
+      "description": "Shitake mushroom, coriander chop,lemon juice,\nscallions, light soy",
+      "offers": [
+       {
+        "@type": "offer",
+        "price": "475/ 475",
+        "priceCurrency": "INR"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "@type": "MenuSection",
+    "name": "Salads",
+    "hasMenuItem": [
+     {
+      "@type": "MenuItem",
+      "name": "Avocado Beetroot Orange Feta Amarnath Puffs",
+      "description": "Honey orange dressing\nVitamin A, C | fibre | calcium",
+      "offers": [
+       {
+        "@type": "offer",
+        "price": "700",
+        "priceCurrency": "INR"
+       }
+      ]
+     },
+     {
+      "@type": "MenuItem",
+      "name": "Eerl Grey Tea Scented\nWatermelon And Fetacheese Salad",
+      "description": "Arugula, candied walnut, balsamic",
+      "offers": [
+       {
+        "@type": "offer",
+        "price": "700",
+        "priceCurrency": "INR"
+       }
+      ]
+     },
+     {
+      "@type": "MenuItem",
+      "name": "Mediterranean Salad With Falafel",
+      "description": "Tahini dressing, cucumber, bellpeper,olives,\nonion, tomato, crushed falafel",
+      "offers": [
+       {
+        "@type": "offer",
+        "price": "725",
+        "priceCurrency": "INR"
+       }
+      ]
+     },
+     {
+      "@type": "MenuItem",
+      "name": "Organic Red Quinoa, Mesclun Greens, Poached Egg",
+      "description": "Lemon vinaigrette, brunoise of carrot,\nonion, cucumber\nPotassium | sodium | vitamin A, C",
+      "offers": [
+       {
+        "@type": "offer",
+        "price": "700",
+        "priceCurrency": "INR"
+       }
+      ]
+     },
+     {
+      "@type": "MenuItem",
+      "name": "Caesar Salad",
+      "description": "Fresh-cut local Romaine lettuce, shaved\nparmesan cheese, croutons\nhouse caesar dressing, silver skin anchovies\nSodium | calcium | iron",
+      "offers": [
+       {
+        "@type": "offer",
+        "price": "700",
+        "priceCurrency": "INR"
+       }
+      ]
+     },
+     {
+      "@type": "MenuItem",
+      "name": "Add Protein To Any Salad (Per Protein)",
+      "description": "Grilled cajun chicken breast Grilled bacon Seared salmon Grilled prawns",
+      "offers": [
+       {
+        "@type": "offer",
+        "price": "Non Veg 250  Veg 175",
+        "priceCurrency": "INR"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "@type": "MenuSection",
+    "name": "Appetizers",
+    "hasMenuItem": [
+     {
+      "@type": "MenuItem",
+      "name": "Thai Chili Prawns",
+      "description": "Wok tossed prawns, galangal, lemon grass,\nkaffir lime, bird eye chili",
+      "offers": [
+       {
+        "@type": "offer",
+        "price": "1050",
+        "priceCurrency": "INR"
+       }
+      ]
+     },
+     {
+      "@type": "MenuItem",
+      "name": "Crumb Fried Calamari",
+      "description": "Panko coated squid, chili garlic mayo",
+      "offers": [
+       {
+        "@type": "offer",
+        "price": "950",
+        "priceCurrency": "INR"
+       }
+      ]
+     },
+     {
+      "@type": "MenuItem",
+      "name": "Spicy Korean Chicken",
+      "description": "Diced chicken, Korean sauce, scallions,\ngarlic, oyster sauce, sesame oil",
+      "offers": [
+       {
+        "@type": "offer",
+        "price": "950",
+        "priceCurrency": "INR"
+       }
+      ]
+     },
+     {
+      "@type": "MenuItem",
+      "name": "Jhinga Nisa",
+      "description": "Prawns, caraway seeds, yoghurt,\nyellow chili",
+      "offers": [
+       {
+        "@type": "offer",
+        "price": "1250",
+        "priceCurrency": "INR"
+       }
+      ]
+     },
+     {
+      "@type": "MenuItem",
+      "name": "Sarson Mahi Tikka",
+      "description": "Black Bhetki cubes, mustard,\nhung curd, ginger garlic",
+      "offers": [
+       {
+        "@type": "offer",
+        "price": "950",
+        "priceCurrency": "INR"
+       }
+      ]
+     },
+     {
+      "@type": "MenuItem",
+      "name": "Gosht Seekh Kebab",
+      "description": "Ginger, garlic, chili, mint, lamb\nskewers",
+      "offers": [
+       {
+        "@type": "offer",
+        "price": "950",
+        "priceCurrency": "INR"
+       }
+      ]
+     },
+     {
+      "@type": "MenuItem",
+      "name": "Bhatti Da Murgh",
+      "description": "Chicken morsels, black cardamom,\nchili powder, mustard oil, yoghurt",
+      "offers": [
+       {
+        "@type": "offer",
+        "price": "950",
+        "priceCurrency": "INR"
+       }
+      ]
+     },
+     {
+      "@type": "MenuItem",
+      "name": "Hariyali Paneer Tikka",
+      "description": "Cottage cheese marinated ina\nmixture of yoghurt, mint",
+      "offers": [
+       {
+        "@type": "offer",
+        "price": "895",
+        "priceCurrency": "INR"
+       }
+      ]
+     },
+     {
+      "@type": "MenuItem",
+      "name": "Makai Methi Kebab",
+      "description": "Yoghurt, chili stuffed fenugreek corn cakes",
+      "offers": [
+       {
+        "@type": "offer",
+        "price": "850",
+        "priceCurrency": "INR"
+       }
+      ]
+     },
+     {
+      "@type": "MenuItem",
+      "name": "Mezze Platter",
+      "description": "Hummus, labneh, baba ganoush, tzatziki, falafel, pita bread\nProtein | folate | vitamin A, C",
+      "offers": [
+       {
+        "@type": "offer",
+        "price": "875",
+        "priceCurrency": "INR"
+       }
+      ]
+     },
+     {
+      "@type": "MenuItem",
+      "name": "Jalapeno Cheddar Cheese",
+      "description": "Baguette slices, chopped jalapenos,cheese and wafers",
+      "offers": [
+       {
+        "@type": "offer",
+        "price": "725",
+        "priceCurrency": "INR"
+       }
+      ]
+     },
+     {
+      "@type": "MenuItem",
+      "name": "Crisp Chili Baby Corn",
+      "description": "Baby corn, soy, chili, garlic",
+      "offers": [
+       {
+        "@type": "offer",
+        "price": "750",
+        "priceCurrency": "INR"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "@type": "MenuSection",
+    "name": "Sandwiches & Burger",
+    "hasMenuItem": [
+     {
+      "@type": "MenuItem",
+      "name": "The Classic Club",
+      "description": "Roasted turkey, bacon, lettuce,\ntomato, mayo, white toast",
+      "offers": [
+       {
+        "@type": "offer",
+        "price": "1050",
+        "priceCurrency": "INR"
+       }
+      ]
+     },
+     {
+      "@type": "MenuItem",
+      "name": "Grilled Chicken Tikka",
+      "description": "Chicken tikka, onion, tomatoes, cocktail mayo",
+      "offers": [
+       {
+        "@type": "offer",
+        "price": "950",
+        "priceCurrency": "INR"
+       }
+      ]
+     },
+     {
+      "@type": "MenuItem",
+      "name": "Crispy Fried Chicken Burger",
+      "description": "Sesame bun, cheddar cheese, tomato,\nlettuce, gherkin",
+      "offers": [
+       {
+        "@type": "offer",
+        "price": "950",
+        "priceCurrency": "INR"
+       }
+      ]
+     },
+     {
+      "@type": "MenuItem",
+      "name": "Ham And Cheese",
+      "description": "Honey roasted pork ham, Swiss cheese,\nmustard, pickle gherkin",
+      "offers": [
+       {
+        "@type": "offer",
+        "price": "950",
+        "priceCurrency": "INR"
+       }
+      ]
+     },
+     {
+      "@type": "MenuItem",
+      "name": "Primavera Burger",
+      "description": "Garden vegetable patty, sesame bun,\nslaw, tomato, cheddar cheese\nSodium | potassium | vitamin B-12",
+      "offers": [
+       {
+        "@type": "offer",
+        "price": "900",
+        "priceCurrency": "INR"
+       }
+      ]
+     },
+     {
+      "@type": "MenuItem",
+      "name": "Classic Vegetable Club",
+      "description": "Grilled peppers, zucchini, lettuce,\ncucumber, tomato",
+      "offers": [
+       {
+        "@type": "offer",
+        "price": "950",
+        "priceCurrency": "INR"
+       }
+      ]
+     },
+     {
+      "@type": "MenuItem",
+      "name": "Bombay Masala Sandwich",
+      "description": "Spiced potato, mint, onion, cucumber",
+      "offers": [
+       {
+        "@type": "offer",
+        "price": "900",
+        "priceCurrency": "INR"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "@type": "MenuSection",
+    "name": "Western & Asian Mains",
+    "hasMenuItem": [
+     {
+      "@type": "MenuItem",
+      "name": "Spaghetti Arrabbiata",
+      "description": "Spicy tomato sauce, parmigiana\nreggiano",
+      "offers": [
+       {
+        "@type": "offer",
+        "price": "950",
+        "priceCurrency": "INR"
+       }
+      ]
+     },
+     {
+      "@type": "MenuItem",
+      "name": "Penne Ala Funghi",
+      "description": "Shimeji, button mushroom,cream sauce,\nparmigiana reggiano",
+      "offers": [
+       {
+        "@type": "offer",
+        "price": "1050",
+        "priceCurrency": "INR"
+       }
+      ]
+     },
+     {
+      "@type": "MenuItem",
+      "name": "Fettuccine Lamb Ragu",
+      "description": "Lamb, tomato, red wine, parmigiana\nreggiano",
+      "offers": [
+       {
+        "@type": "offer",
+        "price": "1200",
+        "priceCurrency": "INR"
+       }
+      ]
+     },
+     {
+      "@type": "MenuItem",
+      "name": "Lobster Linguine",
+      "description": "Honey roasted pork ham, Swiss cheese,\nmustard, pickle gherkin",
+      "offers": [
+       {
+        "@type": "offer",
+        "price": "1250",
+        "priceCurrency": "INR"
+       }
+      ]
+     },
+     {
+      "@type": "MenuItem",
+      "name": "Ratatouille Lasagna",
+      "description": "Roasted vegetables tossed with\nplum tomato sauce,layered with\nlasagna sheets, gratinated with cheese",
+      "offers": [
+       {
+        "@type": "offer",
+        "price": "1050",
+        "priceCurrency": "INR"
+       }
+      ]
+     },
+     {
+      "@type": "MenuItem",
+      "name": "Red Snapper",
+      "description": "Grilled red snapper, lemon butter\nsauce, garlic potato mash,\nsautéed peppers and spinach",
+      "offers": [
+       {
+        "@type": "offer",
+        "price": "1250",
+        "priceCurrency": "INR"
+       }
+      ]
+     },
+     {
+      "@type": "MenuItem",
+      "name": "Norwegian Salmon",
+      "description": "Grilled salmon fillet, truffle potato mash,\nsautéed broccoli, asparagus, lemon butter sauce\nProtein | vitamin d-b12 | omega 3",
+      "offers": [
+       {
+        "@type": "offer",
+        "price": "1550",
+        "priceCurrency": "INR"
+       }
+      ]
+     },
+     {
+      "@type": "MenuItem",
+      "name": "Free Range Chicken Breast",
+      "description": "Grilled chicken breast, potato mash,\nseasonal vegetables, pepper jus",
+      "offers": [
+       {
+        "@type": "offer",
+        "price": "1250",
+        "priceCurrency": "INR"
+       }
+      ]
+     },
+     {
+      "@type": "MenuItem",
+      "name": "Chicken Black Pepper Sauce",
+      "description": "Chicken cubes, bell pepper, soy, black pepper",
+      "offers": [
+       {
+        "@type": "offer",
+        "price": "1100",
+        "priceCurrency": "INR"
+       }
+      ]
+     },
+     {
+      "@type": "MenuItem",
+      "name": "Stir-Fry Asian Greens Chili Basil Sauce",
+      "description": "Bok choy, zucchini, tofu, broccoli in\nchili basil sauce",
+      "offers": [
+       {
+        "@type": "offer",
+        "price": "950",
+        "priceCurrency": "INR"
+       }
+      ]
+     },
+     {
+      "@type": "MenuItem",
+      "name": "Stir-Fry Noodles (Vegetables/Chicken/ Prawns)",
+      "description": "(Hakka/Schezwan)",
+      "offers": [
+       {
+        "@type": "offer",
+        "price": "675/ 700 / 725",
+        "priceCurrency": "INR"
+       }
+      ]
+     },
+     {
+      "@type": "MenuItem",
+      "name": "Wok Tossed Fried Rice (Vegetables/Chicken/ Seafood)",
+      "description": "(Burnt garlic/Hibachi/Schezwan)",
+      "offers": [
+       {
+        "@type": "offer",
+        "price": "675/ 700 / 726",
+        "priceCurrency": "INR"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "@type": "MenuSection",
+    "name": "Indian Mains",
+    "hasMenuItem": [
+     {
+      "@type": "MenuItem",
+      "name": "Paneer Butter Masala",
+      "description": "Stewed cottage cheese, tomato,\nfenugreek leaves, ginger, garlic,\ncream, butter",
+      "offers": [
+       {
+        "@type": "offer",
+        "price": "1150",
+        "priceCurrency": "INR"
+       }
+      ]
+     },
+     {
+      "@type": "MenuItem",
+      "name": "Subza",
+      "description": "Cumin & garlic tempered seasonal\nvegetables, lahori masala",
+      "offers": [
+       {
+        "@type": "offer",
+        "price": "895",
+        "priceCurrency": "INR"
+       }
+      ]
+     },
+     {
+      "@type": "MenuItem",
+      "name": "Singada Palak",
+      "description": "Golden garlic tempered",
+      "offers": [
+       {
+        "@type": "offer",
+        "price": "895",
+        "priceCurrency": "INR"
+       }
+      ]
+     },
+     {
+      "@type": "MenuItem",
+      "name": "Masala Bhindi",
+      "description": "Pan tossed ladyfinger, dry spices",
+      "offers": [
+       {
+        "@type": "offer",
+        "price": "895",
+        "priceCurrency": "INR"
+       }
+      ]
+     },
+     {
+      "@type": "MenuItem",
+      "name": "Butter Chicken",
+      "description": "Boneless chicken tikka, tomato\ncashew nut gravy, cream",
+      "offers": [
+       {
+        "@type": "offer",
+        "price": "1250",
+        "priceCurrency": "INR"
+       }
+      ]
+     },
+     {
+      "@type": "MenuItem",
+      "name": "Mutton Rogan Josh",
+      "description": "Braised lamb, garlic, Kashmiri chili",
+      "offers": [
+       {
+        "@type": "offer",
+        "price": "1450",
+        "priceCurrency": "INR"
+       }
+      ]
+     },
+     {
+      "@type": "MenuItem",
+      "name": "Kozhi Varutharacha Curry",
+      "description": "Pot roasted chicken, coconut,shallots,\ncurry leaf",
+      "offers": [
+       {
+        "@type": "offer",
+        "price": "1250",
+        "priceCurrency": "INR"
+       }
+      ]
+     },
+     {
+      "@type": "MenuItem",
+      "name": "Malabar Fish Curry",
+      "description": "Stewed black bhetki fish cubes,\nroasted coconut, shallots, tamarind pulp",
+      "offers": [
+       {
+        "@type": "offer",
+        "price": "1350",
+        "priceCurrency": "INR"
+       }
+      ]
+     },
+     {
+      "@type": "MenuItem",
+      "name": "Dal Makhani",
+      "description": "Black lentil, tomato, cream, butter",
+      "offers": [
+       {
+        "@type": "offer",
+        "price": "950",
+        "priceCurrency": "INR"
+       }
+      ]
+     },
+     {
+      "@type": "MenuItem",
+      "name": "Dal Tadka",
+      "description": "Stewed arhar lentils, cumin garlic tempered",
+      "offers": [
+       {
+        "@type": "offer",
+        "price": "850",
+        "priceCurrency": "INR"
+       }
+      ]
+     },
+     {
+      "@type": "MenuItem",
+      "name": "Masala Khichdi",
+      "description": "Basmati rice, lentil, clarified\nbutter, cumin, turmeric",
+      "offers": [
+       {
+        "@type": "offer",
+        "price": "850",
+        "priceCurrency": "INR"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "@type": "MenuSection",
+    "name": "Rice & Biryani",
+    "hasMenuItem": [
+     {
+      "@type": "MenuItem",
+      "name": "Subz Biriyani",
+      "description": "SUBZ BIRYANI\nBasmati rice, garden fresh vegetables,\nbrown onion, aromatic spices, mint",
+      "offers": [
+       {
+        "@type": "offer",
+        "price": "1050",
+        "priceCurrency": "INR"
+       }
+      ]
+     },
+     {
+      "@type": "MenuItem",
+      "name": "Murgh Dum Biriyani",
+      "description": "Basmati rice, chicken morsels,\nbrown onion, aromatic spices, mint",
+      "offers": [
+       {
+        "@type": "offer",
+        "price": "1150",
+        "priceCurrency": "INR"
+       }
+      ]
+     },
+     {
+      "@type": "MenuItem",
+      "name": "Gosht Dum Biryani",
+      "description": "Basmati rice, mutton morsels,\nbrown onion, aromatic spices, mint",
+      "offers": [
+       {
+        "@type": "offer",
+        "price": "1200",
+        "priceCurrency": "INR"
+       }
+      ]
+     },
+     {
+      "@type": "MenuItem",
+      "name": "Steamed Rice",
+      "description": "Fragrant basmati rice",
+      "offers": [
+       {
+        "@type": "offer",
+        "price": "400",
+        "priceCurrency": "INR"
+       }
+      ]
+     },
+     {
+      "@type": "MenuItem",
+      "name": "Breads",
+      "description": "Tandoori roti | Naan | Kulcha\nLachha paratha |Tawa paratha (2 pcs)\nPhulka (4 pcs)",
+      "offers": [
+       {
+        "@type": "offer",
+        "price": "200",
+        "priceCurrency": "INR"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "@type": "MenuSection",
+    "name": "Desserts",
+    "hasMenuItem": [
+     {
+      "@type": "MenuItem",
+      "name": "Gulab Jamun",
+      "description": "Fried milk dumpling,\ncardamom, flavoured sugar syrup",
+      "offers": [
+       {
+        "@type": "offer",
+        "price": "450",
+        "priceCurrency": "INR"
+       }
+      ]
+     },
+     {
+      "@type": "MenuItem",
+      "name": "Moong Dal Halwa",
+      "description": "Ground lentil, clarified butter,\nnuts, cardamom",
+      "offers": [
+       {
+        "@type": "offer",
+        "price": "450",
+        "priceCurrency": "INR"
+       }
+      ]
+     },
+     {
+      "@type": "MenuItem",
+      "name": "Rasmalai",
+      "description": "Poached milk dumplings,\ncardamom,fron milk",
+      "offers": [
+       {
+        "@type": "offer",
+        "price": "450",
+        "priceCurrency": "INR"
+       }
+      ]
+     },
+     {
+      "@type": "MenuItem",
+      "name": "Seasonal Sliced local Fruits",
+      "description": "Selection of locally sourced fruits\nVitamin C | folate | potassium",
+      "offers": [
+       {
+        "@type": "offer",
+        "price": "500",
+        "priceCurrency": "INR"
+       }
+      ]
+     },
+     {
+      "@type": "MenuItem",
+      "name": "Callebaut Chocolate Mousse",
+      "description": "Fresh fruits, almond crumble,\nroasted hazelnuts",
+      "offers": [
+       {
+        "@type": "offer",
+        "price": "500",
+        "priceCurrency": "INR"
+       }
+      ]
+     },
+     {
+      "@type": "MenuItem",
+      "name": "Sticky Date Pudding",
+      "description": "Butterscotch sauce",
+      "offers": [
+       {
+        "@type": "offer",
+        "price": "450",
+        "priceCurrency": "INR"
+       }
+      ]
+     },
+     {
+      "@type": "MenuItem",
+      "name": "Classic Baked Cheese Cake Slice",
+      "description": "Berry coulis",
+      "offers": [
+       {
+        "@type": "offer",
+        "price": "450",
+        "priceCurrency": "INR"
+       }
+      ]
+     },
+     {
+      "@type": "MenuItem",
+      "name": "Ice Cream",
+      "description": "Chocolate | vanilla | strawberry",
+      "offers": [
+       {
+        "@type": "offer",
+        "price": "450",
+        "priceCurrency": "INR"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "@context": "http://schema.org",
+  "@type": "Menu",
+  "name": "Beverage",
+  "inLanguage": "English",
+  "publisher": [
+   {
+    "@type": "Restaurant",
+    "name": "JW Kitchen",
+    "telephone": "+91-8884494037",
+    "url": "https://www.marriott.com/en-us/hotels/blrjw-jw-marriott-hotel-bengaluru/overview/",
+    "logo": "https://www.jwkitchenbengaluru.com/resourcefiles/logo/logo-jw-kitchen.jpg",
+    "image": "https://www.jwkitchenbengaluru.com/resourcefiles/logo/logo-jw-kitchen.jpg",
+    "address": {
+     "@type": "PostalAddress",
+     "streetAddress": "JW Marriott Bengaluru, 24/1, Vittal Mallya Rd, KG Halli, Shanthala Nagar, Ashok Nagar,",
+     "addressLocality": "Bangalore",
+     "addressRegion": "Bengaluru",
+     "postalCode": "560001"
+    },
+    "servesCuisine": [
+     "Multi-cuisine"
+    ],
+    "priceRange": "INR 400 onwards"
+   }
+  ],
+  "hasMenuSection": [
+   {
+    "@type": "MenuSection",
+    "name": "Beverage",
+    "hasMenuItem": [
+     {
+      "@type": "MenuItem",
+      "name": "Home Made Masala Chai",
+      "description": "",
+      "offers": [
+       {
+        "@type": "offer",
+        "price": "275",
+        "priceCurrency": "INR"
+       }
+      ]
+     },
+     {
+      "@type": "MenuItem",
+      "name": "South Indian Filiter Coffee",
+      "description": "",
+      "offers": [
+       {
+        "@type": "offer",
+        "price": "275",
+        "priceCurrency": "INR"
+       }
+      ]
+     },
+     {
+      "@type": "MenuItem",
+      "name": "Hot Chocolate",
+      "description": "",
+      "offers": [
+       {
+        "@type": "offer",
+        "price": "325",
+        "priceCurrency": "INR"
+       }
+      ]
+     },
+     {
+      "@type": "MenuItem",
+      "name": "Freshly Brewed Tea",
+      "description": "English, Assam, Darjeeling, Earl Grey, Green",
+      "offers": [
+       {
+        "@type": "offer",
+        "price": "275",
+        "priceCurrency": "INR"
+       }
+      ]
+     },
+     {
+      "@type": "MenuItem",
+      "name": "Freshly Brewed Coffee",
+      "description": "Cappuccino, Café Latte, Espresso, American",
+      "offers": [
+       {
+        "@type": "offer",
+        "price": "275",
+        "priceCurrency": "INR"
+       }
+      ]
+     },
+     {
+      "@type": "MenuItem",
+      "name": "Chilled Juices",
+      "description": "Apple, cranberry, tomato, grape, guava",
+      "offers": [
+       {
+        "@type": "offer",
+        "price": "300",
+        "priceCurrency": "INR"
+       }
+      ]
+     },
+     {
+      "@type": "MenuItem",
+      "name": "Fresh Lime water or Soda",
+      "description": "",
+      "offers": [
+       {
+        "@type": "offer",
+        "price": "300",
+        "priceCurrency": "INR"
+       }
+      ]
+     },
+     {
+      "@type": "MenuItem",
+      "name": "Sparkling Water",
+      "description": "",
+      "offers": [
+       {
+        "@type": "offer",
+        "price": "400",
+        "priceCurrency": "INR"
+       }
+      ]
+     },
+     {
+      "@type": "MenuItem",
+      "name": "Mineral Water",
+      "description": "",
+      "offers": [
+       {
+        "@type": "offer",
+        "price": "100",
+        "priceCurrency": "INR"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+]</script><link rel='canonical' href='https://www.jwkitchenbengaluru.com/our-menus'><link rel='amphtml' href='https://www.jwkitchenbengaluru.com/amp/our-menus'><meta name="generator" content="Milestone CMS 6.0"><script id="mjdata" type="application/ld+json">[{
+ "@context": "http://schema.org",
+ "@type": [
+  "WebPage"
+ ],
+ "speakable": {
+  "xpath": [
+   "/html/head/title",
+   "/html/head/meta[@name='description']/@content"
+  ],
+  "@type": "SpeakableSpecification"
+ },
+ "dateCreated": "2025-03-23",
+ "dateModified": "2025-03-28",
+ "datePublished": "2025-04-02",
+ "name": "Multi-cuisine buffet restaurant in Bangalore | JW Kitchen ",
+ "description": "Experience unique gastronomic journey at the best Sunday Brunch with Regional Indian, Continental, Western, Asian, Mediterranean cuisine",
+ "url": "https://www.jwkitchenbengaluru.com/our-menus",
+ "primaryImageOfPage": [
+  {
+   "@type": "ImageObject",
+   "contentUrl": "https://www.jwkitchenbengaluru.com/resourcefiles/mainimages/jw-kitchen-menu.jpg?version=4072025122744",
+   "name": "",
+   "caption": ""
+  }
+ ],
+ "breadcrumb": [],
+ "text": "",
+ "hasPart": null,
+ "mainentity": null
+},{
+ "@context": "http://schema.org",
+ "@type": [
+  "Restaurant"
+ ],
+ "name": "JW Kitchen",
+ "alternateName": "JW Kitchen",
+ "url": "https://www.marriott.com/en-us/hotels/blrjw-jw-marriott-hotel-bengaluru/overview/",
+ "sameAs": [
+  "https://www.facebook.com/JWMarriottHotelBengaluru",
+  "https://twitter.com/jwmarriottblr",
+  "https://www.instagram.com/jwmarriottblr/?hl=en"
+ ],
+ "logo": "https://www.jwkitchenbengaluru.com/resourcefiles/logo/logo-jw-kitchen.jpg",
+ "image": "https://www.jwkitchenbengaluru.com/resourcefiles/logo/logo-jw-kitchen.jpg",
+ "description": null,
+ "award": null,
+ "legalName": null,
+ "servesCuisine": [
+  "Multi-cuisine"
+ ],
+ "contactPoint": {
+  "@type": "ContactPoint",
+  "telephone": "+91-8884494037",
+  "email": "jw.blrjw.jwkitchen@marriotthotels.com",
+  "contactType": "Inquiry, Reservations or Business"
+ },
+ "telephone": "+91-8884494037",
+ "address": {
+  "@type": "PostalAddress",
+  "streetAddress": "JW Marriott Bengaluru, 24/1, Vittal Mallya Rd, KG Halli, Shanthala Nagar, Ashok Nagar,",
+  "addressLocality": "Bangalore",
+  "addressRegion": "Bengaluru",
+  "postalCode": "560001",
+  "addressCountry": "India"
+ },
+ "geo": {
+  "@type": "GeoCoordinates",
+  "latitude": "12.972231",
+  "longitude": "77.594953"
+ },
+ "aggregateRating": null,
+ "brand": null,
+ "photo": null,
+ "review": null,
+ "starRating": null,
+ "priceRange": "INR 400 onwards",
+ "subOrganization": null,
+ "parentOrganization": null,
+ "hasOfferCatalog": null,
+ "petsAllowed": null
+}]</script><script>if (top.location.host != self.location.host) {
+  top.location = self.location;
+}
+</script></head>
+ <body>
+  <input type='hidden' id='adobetypeID' value='Dining'>
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5WT9D4D" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+ 
+  <!--for no editor on content--> 
+   
+  <!-- For ADA --> 
+  
+  <div id="wrapper" class="inner-fix our-menus"> 
+   <a role="button" class="skip-to-content-btn" href="#content">Skip to main content</a> 
+   <!-- Header Section --> 
+   <nav id="main" class="uk-navbar-container uk-sticky" uk-sticky="" uk-active="">
+  <div class="main-wrap">
+    <header class="header-section clearfix uk-container">
+      <div class="uk-navbar uk-flex-middle"> 
+          <div class="burger-menu uk-navbar-item">
+            <a href="javascript:;" uk-toggle="target: #megamenu, .burger-menu, #main; cls: active">
+              <div class="burger-menu-wrap">
+                <div class="menu-line-wrap"><span class="first-line"></span><span class="second-line"></span><span class="third-line"></span></div>
+                <div class="burger-text">Menu</div>
+                <div class="burger-text-close">Close</div>
+              </div>
+            </a>
+          <!--   <div class="lang-switch">
+              <label for="lang-switch3" class="sr-only uk-hidden">Select Language</label>
+              <select id="lang-switch3">
+                <option selected value="English">En</option>
+                <option value="Spanish">Sp</option>
+              </select>
+              <span class="lang-arrow mim-icon-angle-arrow-down"></span>
+            </div> -->
+            <div class="after-open-header">
+              <div class="social-media"> <div class="social-media-wrap footer-box"><ul> <li> <a tabindex="0" class="facebook" target="_blank" href="https://www.facebook.com/JWMarriottHotelBengaluru" rel="noopener"><span class="mim-icon-facebook icon-s" aria-hidden="true"></span><span class="sr-only">Facebook</span> </a> </li> <li> <a tabindex="0" class="twitter" target="_blank" href="https://twitter.com/jwmarriottblr" rel="noopener"><span class="mim-icon-twitter icon-s" aria-hidden="true"></span><span class="sr-only">Twitter</span> </a> </li> <li> <a tabindex="0" class="instagram" target="_blank" href="https://www.instagram.com/jwmarriottblr/?hl=en" rel="noopener"><span class="mim-icon-instagram icon-s" aria-hidden="true"></span><span class="sr-only">Instagram</span> </a> </li></ul></div></div>
+              <div class="header-notification"><a href="javascript:;">Get Notifications</a></div>
+              <div class="header-reser-no">Reservations: <a href="tel:8884494037" target="_blank" rel="nofollow">8884494037</a></div>
+            </div>
+          </div>
+          <div class="uk-navbar-item uk-logo"><div class="logo">
+ <div class="dynamiccomponenteditenable" data-id='261827' data-editbuttontext='' data-editable='True'> 
+ <a href="https://www.jwkitchenbengaluru.com/">
+  <img data-nodeferimage="true" src="https://www.jwkitchenbengaluru.com/resourcefiles/logo/jw-kitchen-logo.jpg" alt="JW Kitchen" width="158" height="49">
+ </a> 
+ </div>
+</div>
+</div>
+          <div class="uk-navbar-item nav-bar-right">
+           <div class="top-navigation clearfix" id="hide-nav" style="display:none">
+              
+<a href="javascript:;" class="menu-dummy-link"><span class="sr-only">menu open</span></a>
+  <ul class="uk-navbar-nav">
+     
+    	<li class="dynamiccomponenteditenable" data-id='261817' data-editbuttontext='' data-editable='True'>
+               <a class="nav" href="https://www.jwkitchenbengaluru.com/">
+        Home</a> </li>
+     
+    	<li class="dynamiccomponenteditenable" data-id='261818' data-editbuttontext='' data-editable='True'>
+               <a class="nav" href="https://www.jwkitchenbengaluru.com/photos">
+        Photos</a> </li>
+     
+    	<li class="dynamiccomponenteditenable" data-id='261820' data-editbuttontext='' data-editable='True'>
+               <a class="nav" href="https://www.jwkitchenbengaluru.com/about-us">
+        About Us</a> </li>
+     
+    	<li class="dynamiccomponenteditenable" data-id='261821' data-editbuttontext='' data-editable='True'>
+               <a class="nav" href="https://www.jwkitchenbengaluru.com/contact-location">
+        Contact &amp; Location</a> </li>
+     
+    	<li class="dynamiccomponenteditenable" data-id='261822' data-editbuttontext='' data-editable='True'>
+               <a class="nav" href="https://www.jwkitchenbengaluru.com/meet-the-chef">
+        Meet The Chef</a> </li>
+     
+    	<li class="dynamiccomponenteditenable" data-id='261823' data-editbuttontext='' data-editable='True'>
+               <a class="nav" href="https://www.jwkitchenbengaluru.com/faqs">
+        FAQs</a> </li>
+     
+    	<li class="dynamiccomponenteditenable" data-id='262852' data-editbuttontext='' data-editable='True'>
+          
+       <a class="nav custom_click_track" href="https://www.jwkitchenbengaluru.com/our-menus" data-custom_click_track_value="NavBar | Menu Views | Internal | event456">
+        Our Menus</a> </li>
+  </ul>
+
+            </div>
+            <div class="booking-sec">
+              <div class="reserve-btn reserve-btn-click">
+                <div class="reserve-openbox dynamiccomponenteditenable" data-id='261828' data-editbuttontext='' data-editable='True'>
+  <a data-main="mainreservation" href="https://www.sevenrooms.com/reservations/jwkitchenblrjw/jw-kitchen-marriott-com" class="button booktarget" rel="noopener" target="_blank" data-autodatalayer="" onclick="pushToGtmRenderByDom(this)" data-msevent="booking main" data-mscategory="primary cta button click" data-msaction="click"> Reserve
+    <span class="formslable" aria-hidden="true">booking widget</span> <span class="res-ico "></span>
+  </a>
+</div>
+
+              </div>
+            </div>
+            <div class="lang-switch">
+              <label for="lang-switch1" class="sr-only uk-hidden">Select Language</label>
+              <select id="lang-switch1">
+                <option selected="" value="English">En</option>
+                <option value="Spanish">Sp</option>
+              </select>
+              <span class="lang-arrow mim-icon-angle-arrow-down"></span>
+            </div>
+<div class="nav-number">
+<span class="num-txt">Call to reserve </span>
+<a href="tel:8884494037" target="_self" rel="nofollow">8884494037</a>
+</div>
+          </div>
+        </div>
+      </header></div>
+    
+</nav>
+<div id="megamenu" class="open-megamenu">
+	<div class="open-megamenu-wrap">
+		<!-- <div class="lang-switch">
+      <label for="lang-switch" class="sr-only uk-hidden">Select Language</label>
+      <select id="lang-switch">
+        <option selected value="English">En</option>
+        <option value="Spanish">Sp</option>
+      </select>
+      <span class="lang-arrow mim-icon-angle-arrow-down"></span>
+    </div> -->
+		<div class="top-navigation clearfix">
+      
+<a href="javascript:;" class="menu-dummy-link"><span class="sr-only">menu open</span></a>
+  <ul class="uk-navbar-nav">
+     
+    	<li class="dynamiccomponenteditenable" data-id='261817' data-editbuttontext='' data-editable='True'>
+               <a class="nav" href="https://www.jwkitchenbengaluru.com/">
+        Home</a> </li>
+     
+    	<li class="dynamiccomponenteditenable" data-id='261818' data-editbuttontext='' data-editable='True'>
+               <a class="nav" href="https://www.jwkitchenbengaluru.com/photos">
+        Photos</a> </li>
+     
+    	<li class="dynamiccomponenteditenable" data-id='261820' data-editbuttontext='' data-editable='True'>
+               <a class="nav" href="https://www.jwkitchenbengaluru.com/about-us">
+        About Us</a> </li>
+     
+    	<li class="dynamiccomponenteditenable" data-id='261821' data-editbuttontext='' data-editable='True'>
+               <a class="nav" href="https://www.jwkitchenbengaluru.com/contact-location">
+        Contact &amp; Location</a> </li>
+     
+    	<li class="dynamiccomponenteditenable" data-id='261822' data-editbuttontext='' data-editable='True'>
+               <a class="nav" href="https://www.jwkitchenbengaluru.com/meet-the-chef">
+        Meet The Chef</a> </li>
+     
+    	<li class="dynamiccomponenteditenable" data-id='261823' data-editbuttontext='' data-editable='True'>
+               <a class="nav" href="https://www.jwkitchenbengaluru.com/faqs">
+        FAQs</a> </li>
+     
+    	<li class="dynamiccomponenteditenable" data-id='262852' data-editbuttontext='' data-editable='True'>
+          
+       <a class="nav custom_click_track" href="https://www.jwkitchenbengaluru.com/our-menus" data-custom_click_track_value="NavBar | Menu Views | Internal | event456">
+        Our Menus</a> </li>
+  </ul>
+
+		</div>
+		<div class="social-media">
+			<div class="header-notification">
+				<a href="javascript:;">Get Notifications</a>
+			</div>
+			 <div class="social-media-wrap footer-box"><ul> <li> <a tabindex="0" class="facebook" target="_blank" href="https://www.facebook.com/JWMarriottHotelBengaluru" rel="noopener"><span class="mim-icon-facebook icon-s" aria-hidden="true"></span><span class="sr-only">Facebook</span> </a> </li> <li> <a tabindex="0" class="twitter" target="_blank" href="https://twitter.com/jwmarriottblr" rel="noopener"><span class="mim-icon-twitter icon-s" aria-hidden="true"></span><span class="sr-only">Twitter</span> </a> </li> <li> <a tabindex="0" class="instagram" target="_blank" href="https://www.instagram.com/jwmarriottblr/?hl=en" rel="noopener"><span class="mim-icon-instagram icon-s" aria-hidden="true"></span><span class="sr-only">Instagram</span> </a> </li></ul></div>
+		</div>
+	</div>
+</div>
+<div class="header-bottom-reserv"><a href="https://www.eat2eat.com/SWBooking/Pages/Reservation.aspx?relId=MgA2ADgAMgA=&lang=0&pro=0" target="_blank" rel="nofollow">Reserve</a></div> 
+   <!-- Header END --> 
+   <!-- Middle Section --> 
+   <div id="middle">
+    
+    <div id="mainimage"> <input type="hidden" id="hdnRestrictImageEdit" value="False"><div><div class="mainimage-para" data-src="https://www.jwkitchenbengaluru.com/resourcefiles/mainimages/jw-kitchen-menu.jpg?version=4072025122744" uk-parallax="bgy: 50" uk-img="">&nbsp;</div></div></div>
+    <div class="main-image-over">Our Menus</div>
+    
+   </div>
+   <!-- Middle END--> 
+   <div id="content"><div class="our-menu-option2">
+
+<div class="menu-section">
+<div class="uk-container1170">
+<div class="menu-section-wrap">
+<div class="mobile-tabbing-container">   <div class="tabbing-mobile"><a href="javascript:;"><span class="tabbing-txt">View Menu</span></a></div>   <div class="tabbing-container">   <ul class="tabs"><li class="tab-link" data-tab="Breakfast"><a role="button" href="javascript:;">Breakfast</a></li><li class="tab-link" data-tab="Lunch & Dinner"><a role="button" href="javascript:;">Lunch & Dinner</a></li><li class="tab-link" data-tab="Beverage"><a role="button" href="javascript:;">Beverage</a></li></ul>   </div>  </div>
+
+<div class="tab-content-wrapper">
+<div class="menu-section-box" data-name="Breakfast">
+<div class="menu-main-desc-title">
+<div class="menu-main-title">Breakfast</div>
+<div class="menu-disclaimer"> 
+6:00 am to 10:00 am</div>
+</div>
+<div class="menu-section-box-wrap"><div class="menu-section-subtitle">Revitalizing Juices</div>
+<div class="section-main-description">6:00－10:00 </div>
+  <div class="menu-section-list">    <div class="menu-section-list-wrap"><div class="uk-grid-collapse uk-child-width-1-2@s uk-grid" uk-grid="" uk-height-match=".menu-section-item"><div>
+<div class="menu-image"><img src="" width="471" height="237"></div>
+ <div class="menu-section-item">
+  <div class="menu-section-item-info">
+   <div class="menu-section-name">ANTI-AGING SOLUTION</div>
+   <div class="menu-section-price"><span class="price"><div class="pricesec">
+<span class="price-mulitple"><span class="multiple-pricesec"> <span></span> <span class="dash">-</span></span> </span>
+ <span class="price-type">&#8377; 400</span> 
+</div><span></span></span></div>
+  </div>
+  <div class="menu-section-desc">Apple, beetroot, carrot
+Fibre | Iron | Vitamin C</div> 
+  <div class="addons">
+   
+   
+  </div>
+</div>
+</div><div>
+<div class="menu-image"><img src="" width="471" height="237"></div>
+ <div class="menu-section-item">
+  <div class="menu-section-item-info">
+   <div class="menu-section-name">ENERGIZING GREENS</div>
+   <div class="menu-section-price"><span class="price"><div class="pricesec">
+<span class="price-mulitple"><span class="multiple-pricesec"> <span></span> <span class="dash">-</span></span> </span>
+ <span class="price-type">&#8377; 400</span> 
+</div><span></span></span></div>
+  </div>
+  <div class="menu-section-desc">Spinach, cucumber, celery,
+parsley, lemon, ginger
+Iron | Vitamin C | Magnesium</div> 
+  <div class="addons">
+   
+   
+  </div>
+</div>
+</div><div>
+<div class="menu-image"><img src="" width="471" height="237"></div>
+ <div class="menu-section-item">
+  <div class="menu-section-item-info">
+   <div class="menu-section-name">IMMUNIZING </div>
+   <div class="menu-section-price"><span class="price"><div class="pricesec">
+<span class="price-mulitple"><span class="multiple-pricesec"> <span></span> <span class="dash">-</span></span> </span>
+ <span class="price-type">&#8377; 400</span> 
+</div><span></span></span></div>
+  </div>
+  <div class="menu-section-desc">Locally sourced apple, carrot,
+lemon, ginger, black pepper
+Antioxidants | Vitamin C | Potassium</div> 
+  <div class="addons">
+   
+   
+  </div>
+</div>
+</div><div>
+<div class="menu-image"><img src="" width="471" height="237"></div>
+ <div class="menu-section-item">
+  <div class="menu-section-item-info">
+   <div class="menu-section-name">FRESH FRUIT JUICES </div>
+   <div class="menu-section-price"><span class="price"><div class="pricesec">
+<span class="price-mulitple"><span class="multiple-pricesec"> <span></span> <span class="dash">-</span></span> </span>
+ <span class="price-type">&#8377; 450</span> 
+</div><span></span></span></div>
+  </div>
+  <div class="menu-section-desc">Orange
+Watermelon
+Pineapple</div> 
+  <div class="addons">
+   
+   
+  </div>
+</div>
+</div><div>
+<div class="menu-image"><img src="" width="471" height="237"></div>
+ <div class="menu-section-item">
+  <div class="menu-section-item-info">
+   <div class="menu-section-name">SHAKES </div>
+   <div class="menu-section-price"><span class="price"><div class="pricesec">
+<span class="price-mulitple"><span class="multiple-pricesec"> <span></span> <span class="dash">-</span></span> </span>
+ <span class="price-type">&#8377; 450</span> 
+</div><span></span></span></div>
+  </div>
+  <div class="menu-section-desc">Cold coffee
+Vanilla
+Chocolate</div> 
+  <div class="addons">
+   
+   
+  </div>
+</div>
+</div><div>
+<div class="menu-image"><img src="" width="471" height="237"></div>
+ <div class="menu-section-item">
+  <div class="menu-section-item-info">
+   <div class="menu-section-name">LASSI </div>
+   <div class="menu-section-price"><span class="price"><div class="pricesec">
+<span class="price-mulitple"><span class="multiple-pricesec"> <span></span> <span class="dash">-</span></span> </span>
+ <span class="price-type">&#8377; 450</span> 
+</div><span></span></span></div>
+  </div>
+  <div class="menu-section-desc">Sweet / Salted</div> 
+  <div class="addons">
+   
+   
+  </div>
+</div>
+</div><div>
+<div class="menu-image"><img src="" width="471" height="237"></div>
+ <div class="menu-section-item">
+  <div class="menu-section-item-info">
+   <div class="menu-section-name">BUTTERMILK</div>
+   <div class="menu-section-price"><span class="price"><div class="pricesec">
+<span class="price-mulitple"><span class="multiple-pricesec"> <span></span> <span class="dash">-</span></span> </span>
+ <span class="price-type">&#8377; 450</span> 
+</div><span></span></span></div>
+  </div>
+  <div class="menu-section-desc">Plain / Masala</div> 
+  <div class="addons">
+   
+   
+  </div>
+</div>
+</div><div>
+<div class="menu-image"><img src="" width="471" height="237"></div>
+ <div class="menu-section-item">
+  <div class="menu-section-item-info">
+   <div class="menu-section-name">Fresh Tender Cocunut Water</div>
+   <div class="menu-section-price"><span class="price"><div class="pricesec">
+<span class="price-mulitple"><span class="multiple-pricesec"> <span></span> <span class="dash">-</span></span> </span>
+ <span class="price-type">&#8377; 400</span> 
+</div><span></span></span></div>
+  </div>
+  <div class="menu-section-desc">Locally sourced coconut
+Antioxidants | Magnesium | Potassium</div> 
+  <div class="addons">
+   
+   
+  </div>
+</div>
+</div> </div></div>  </div><div class="menu-section-subtitle">Satisfying Smoothies</div>
+<div class="section-main-description">6:00－10:00 </div>
+  <div class="menu-section-list">    <div class="menu-section-list-wrap"><div class="uk-grid-collapse uk-child-width-1-2@s uk-grid" uk-grid="" uk-height-match=".menu-section-item"><div>
+<div class="menu-image"><img src="" width="471" height="237"></div>
+ <div class="menu-section-item">
+  <div class="menu-section-item-info">
+   <div class="menu-section-name">Luxe Benefit</div>
+   <div class="menu-section-price"><span class="price"><div class="pricesec">
+<span class="price-mulitple"><span class="multiple-pricesec"> <span></span> <span class="dash">-</span></span> </span>
+ <span class="price-type">&#8377; 400</span> 
+</div><span></span></span></div>
+  </div>
+  <div class="menu-section-desc">Banana, Greek yogurt, spinach
+Calcium | Antioxidants | Omega-3</div> 
+  <div class="addons">
+   
+   
+  </div>
+</div>
+</div><div>
+<div class="menu-image"><img src="" width="471" height="237"></div>
+ <div class="menu-section-item">
+  <div class="menu-section-item-info">
+   <div class="menu-section-name">Antioxidant Blend</div>
+   <div class="menu-section-price"><span class="price"><div class="pricesec">
+<span class="price-mulitple"><span class="multiple-pricesec"> <span></span> <span class="dash">-</span></span> </span>
+ <span class="price-type">&#8377; 400</span> 
+</div><span></span></span></div>
+  </div>
+  <div class="menu-section-desc">Passion fruit, Greek yogurt Iron | Antioxidants | Fibre</div> 
+  <div class="addons">
+   
+   
+  </div>
+</div>
+</div> </div></div>  </div><div class="menu-section-subtitle">A Balanced Start</div>
+<div class="section-main-description">6:00－10:00 </div>
+  <div class="menu-section-list">    <div class="menu-section-list-wrap"><div class="uk-grid-collapse uk-child-width-1-2@s uk-grid" uk-grid="" uk-height-match=".menu-section-item"><div>
+<div class="menu-image"><img src="" width="471" height="237"></div>
+ <div class="menu-section-item">
+  <div class="menu-section-item-info">
+   <div class="menu-section-name">Yoghurt</div>
+   <div class="menu-section-price"><span class="price"><div class="pricesec">
+<span class="price-mulitple"><span class="multiple-pricesec"> <span></span> <span class="dash">-</span></span> </span>
+ <span class="price-type">&#8377; 350</span> 
+</div><span></span></span></div>
+  </div>
+  <div class="menu-section-desc">Home made plain fruit yoghurt
+(blueberry, raspberry, strawberry)
+Calcium | Potassium | Vitamin A |
+Vitamin B6 | Vitamin C</div> 
+  <div class="addons">
+   
+   
+  </div>
+</div>
+</div><div>
+<div class="menu-image"><img src="" width="471" height="237"></div>
+ <div class="menu-section-item">
+  <div class="menu-section-item-info">
+   <div class="menu-section-name">Bircher Muesli</div>
+   <div class="menu-section-price"><span class="price"><div class="pricesec">
+<span class="price-mulitple"><span class="multiple-pricesec"> <span></span> <span class="dash">-</span></span> </span>
+ <span class="price-type">&#8377; 350</span> 
+</div><span></span></span></div>
+  </div>
+  <div class="menu-section-desc">Soaked oats, grated carrot, apple, cream,
+honey, raisins
+Calcium | Folate | Iron | Vitamin C, E, K |
+Vitamin B6</div> 
+  <div class="addons">
+   
+   
+  </div>
+</div>
+</div><div>
+<div class="menu-image"><img src="" width="471" height="237"></div>
+ <div class="menu-section-item">
+  <div class="menu-section-item-info">
+   <div class="menu-section-name">Fruit & Chia Yoghurt Bowl</div>
+   <div class="menu-section-price"><span class="price"><div class="pricesec">
+<span class="price-mulitple"><span class="multiple-pricesec"> <span></span> <span class="dash">-</span></span> </span>
+ <span class="price-type">&#8377; 400</span> 
+</div><span></span></span></div>
+  </div>
+  <div class="menu-section-desc">Home-made yogurt, flaked almond, walnut,
+cashew, chia seed, seasonal fruit, raisins
+Vitamin B6 | Potassium | Calcium | Copper</div> 
+  <div class="addons">
+   
+   
+  </div>
+</div>
+</div><div>
+<div class="menu-image"><img src="" width="471" height="237"></div>
+ <div class="menu-section-item">
+  <div class="menu-section-item-info">
+   <div class="menu-section-name">Cereal</div>
+   <div class="menu-section-price"><span class="price"><div class="pricesec">
+<span class="price-mulitple"><span class="multiple-pricesec"> <span></span> <span class="dash">-</span></span> </span>
+ <span class="price-type">&#8377; 400</span> 
+</div><span></span></span></div>
+  </div>
+  <div class="menu-section-desc">Cornflakes, wheat flakes, muesli,
+homemade granola
+Milk selection: full cream milk, almond milk
+Calcium | Vitamin B6 | Potassium</div> 
+  <div class="addons">
+   
+   
+  </div>
+</div>
+</div><div>
+<div class="menu-image"><img src="" width="471" height="237"></div>
+ <div class="menu-section-item">
+  <div class="menu-section-item-info">
+   <div class="menu-section-name">Hot Oatmeal</div>
+   <div class="menu-section-price"><span class="price"><div class="pricesec">
+<span class="price-mulitple"><span class="multiple-pricesec"> <span></span> <span class="dash">-</span></span> </span>
+ <span class="price-type">&#8377; 450</span> 
+</div><span></span></span></div>
+  </div>
+  <div class="menu-section-desc">Soft-cooked rolled oats, Himalayan honey,
+seasonal fruit
+Iron | Magnesium | Calcium | Vitamin B1</div> 
+  <div class="addons">
+   
+   
+  </div>
+</div>
+</div><div>
+<div class="menu-image"><img src="" width="471" height="237"></div>
+ <div class="menu-section-item">
+  <div class="menu-section-item-info">
+   <div class="menu-section-name">Seasonal Fruit Platter</div>
+   <div class="menu-section-price"><span class="price"><div class="pricesec">
+<span class="price-mulitple"><span class="multiple-pricesec"> <span></span> <span class="dash">-</span></span> </span>
+ <span class="price-type">&#8377; 450</span> 
+</div><span></span></span></div>
+  </div>
+  <div class="menu-section-desc">Locally sourced sliced fruit
+Vitamin C | Folate | Potassium</div> 
+  <div class="addons">
+   
+   
+  </div>
+</div>
+</div><div>
+<div class="menu-image"><img src="" width="471" height="237"></div>
+ <div class="menu-section-item">
+  <div class="menu-section-item-info">
+   <div class="menu-section-name">Baker's basket</div>
+   <div class="menu-section-price"><span class="price"><div class="pricesec">
+<span class="price-mulitple"><span class="multiple-pricesec"> <span></span> <span class="dash">-</span></span> </span>
+ <span class="price-type">&#8377; 400</span> 
+</div><span></span></span></div>
+  </div>
+  <div class="menu-section-desc">Assorted danish, muffins, croissant</div> 
+  <div class="addons">
+   
+   
+  </div>
+</div>
+</div> </div></div>  </div><div class="menu-section-subtitle">International Classics</div>
+<div class="section-main-description">6:00－10:00 </div>
+  <div class="menu-section-list">    <div class="menu-section-list-wrap"><div class="uk-grid-collapse uk-child-width-1-2@s uk-grid" uk-grid="" uk-height-match=".menu-section-item"><div>
+<div class="menu-image"><img src="" width="471" height="237"></div>
+ <div class="menu-section-item">
+  <div class="menu-section-item-info">
+   <div class="menu-section-name">Egg White, Basil, Tomato and Pesto Omelette</div>
+   <div class="menu-section-price"><span class="price"><div class="pricesec">
+<span class="price-mulitple"><span class="multiple-pricesec"> <span></span> <span class="dash">-</span></span> </span>
+ <span class="price-type">&#8377; 500</span> 
+</div><span></span></span></div>
+  </div>
+  <div class="menu-section-desc">Basil, pesto, tomato, hash brown potato,
+grilled tomato, bacon rashers, pork or
+chicken sausages
+Protein | Sodium | Calcium</div> 
+  <div class="addons">
+   
+   
+  </div>
+</div>
+</div><div>
+<div class="menu-image"><img src="" width="471" height="237"></div>
+ <div class="menu-section-item">
+  <div class="menu-section-item-info">
+   <div class="menu-section-name">All American</div>
+   <div class="menu-section-price"><span class="price"><div class="pricesec">
+<span class="price-mulitple"><span class="multiple-pricesec"> <span></span> <span class="dash">-</span></span> </span>
+ <span class="price-type">&#8377; 500</span> 
+</div><span></span></span></div>
+  </div>
+  <div class="menu-section-desc">Two locally sourced eggs any style,
+grilled tomato, hash brown potato,
+bacon rashers, pork or chicken sausages</div> 
+  <div class="addons">
+   
+   
+  </div>
+</div>
+</div><div>
+<div class="menu-image"><img src="" width="471" height="237"></div>
+ <div class="menu-section-item">
+  <div class="menu-section-item-info">
+   <div class="menu-section-name">Eggs Benedict</div>
+   <div class="menu-section-price"><span class="price"><div class="pricesec">
+<span class="price-mulitple"><span class="multiple-pricesec"> <span></span> <span class="dash">-</span></span> </span>
+ <span class="price-type">&#8377; 550</span> 
+</div><span></span></span></div>
+  </div>
+  <div class="menu-section-desc">Two locally sourced poached eggs,
+English muffin, hollandaise sauce,
+grilled tomato, hash brown potato,
+bacon rashers, pork or chicken sausages</div> 
+  <div class="addons">
+   
+   
+  </div>
+</div>
+</div><div>
+<div class="menu-image"><img src="" width="471" height="237"></div>
+ <div class="menu-section-item">
+  <div class="menu-section-item-info">
+   <div class="menu-section-name">Breakfast Sides</div>
+   <div class="menu-section-price"><span class="price"><div class="pricesec">
+<span class="price-mulitple"><span class="multiple-pricesec"> <span></span> <span class="dash">-</span></span> </span>
+ <span class="price-type">&#8377; Non Veg 250  Veg 175</span> 
+</div><span></span></span></div>
+  </div>
+  <div class="menu-section-desc">Bacon / Grilled Chicken sausage
+Grilled Pork sausage
+Sautéed Mushrooms
+Sautéed Vegetables
+Baked Beans</div> 
+  <div class="addons">
+   
+   
+  </div>
+</div>
+</div> </div></div>  </div><div class="menu-section-subtitle">Chef’s Signature Choice</div>
+<div class="section-main-description">6:00－10:00 </div>
+  <div class="menu-section-list">    <div class="menu-section-list-wrap"><div class="uk-grid-collapse uk-child-width-1-2@s uk-grid" uk-grid="" uk-height-match=".menu-section-item"><div>
+<div class="menu-image"><img src="" width="471" height="237"></div>
+ <div class="menu-section-item">
+  <div class="menu-section-item-info">
+   <div class="menu-section-name">Kalakki Omelette</div>
+   <div class="menu-section-price"><span class="price"><div class="pricesec">
+<span class="price-mulitple"><span class="multiple-pricesec"> <span></span> <span class="dash">-</span></span> </span>
+ <span class="price-type">&#8377; 500</span> 
+</div><span></span></span></div>
+  </div>
+  <div class="menu-section-desc">Two locally sourced eggs,
+South Indian style scrambled egg,
+flavoured with chicken gravy, Indian spices
+served with Malabar paratha</div> 
+  <div class="addons">
+   
+   
+  </div>
+</div>
+</div><div>
+<div class="menu-image"><img src="" width="471" height="237"></div>
+ <div class="menu-section-item">
+  <div class="menu-section-item-info">
+   <div class="menu-section-name">Masala Omelette</div>
+   <div class="menu-section-price"><span class="price"><div class="pricesec">
+<span class="price-mulitple"><span class="multiple-pricesec"> <span></span> <span class="dash">-</span></span> </span>
+ <span class="price-type">&#8377; 450</span> 
+</div><span></span></span></div>
+  </div>
+  <div class="menu-section-desc">Two locally sourced free-range eggs
+omelette with onion, tomato, coriander,
+green chilli, grilled tomato, hash brown potato</div> 
+  <div class="addons">
+   
+   
+  </div>
+</div>
+</div><div>
+<div class="menu-image"><img src="" width="471" height="237"></div>
+ <div class="menu-section-item">
+  <div class="menu-section-item-info">
+   <div class="menu-section-name">Anda Bhurji Pav</div>
+   <div class="menu-section-price"><span class="price"><div class="pricesec">
+<span class="price-mulitple"><span class="multiple-pricesec"> <span></span> <span class="dash">-</span></span> </span>
+ <span class="price-type">&#8377; 500</span> 
+</div><span></span></span></div>
+  </div>
+  <div class="menu-section-desc">Two locally sourced Indian style eggs
+scrambled with onion, tomato, coriander,
+green chilli, turmeric grilled tomato,
+hash brown potato served with
+Indian soft roll.</div> 
+  <div class="addons">
+   
+   
+  </div>
+</div>
+</div><div>
+<div class="menu-image"><img src="" width="471" height="237"></div>
+ <div class="menu-section-item">
+  <div class="menu-section-item-info">
+   <div class="menu-section-name">Brioche French Toast</div>
+   <div class="menu-section-price"><span class="price"><div class="pricesec">
+<span class="price-mulitple"><span class="multiple-pricesec"> <span></span> <span class="dash">-</span></span> </span>
+ <span class="price-type">&#8377; 700</span> 
+</div><span></span></span></div>
+  </div>
+  <div class="menu-section-desc">Whipped butter, maple syrup,
+homemade berry compote</div> 
+  <div class="addons">
+   
+   
+  </div>
+</div>
+</div><div>
+<div class="menu-image"><img src="" width="471" height="237"></div>
+ <div class="menu-section-item">
+  <div class="menu-section-item-info">
+   <div class="menu-section-name">Belgian Waffle</div>
+   <div class="menu-section-price"><span class="price"><div class="pricesec">
+<span class="price-mulitple"><span class="multiple-pricesec"> <span></span> <span class="dash">-</span></span> </span>
+ <span class="price-type">&#8377; 700</span> 
+</div><span></span></span></div>
+  </div>
+  <div class="menu-section-desc">Locally sourced fruit compote, maple syrup,
+whipped butter</div> 
+  <div class="addons">
+   
+   
+  </div>
+</div>
+</div><div>
+<div class="menu-image"><img src="" width="471" height="237"></div>
+ <div class="menu-section-item">
+  <div class="menu-section-item-info">
+   <div class="menu-section-name">Classic Butter Milk Pancakes</div>
+   <div class="menu-section-price"><span class="price"><div class="pricesec">
+<span class="price-mulitple"><span class="multiple-pricesec"> <span></span> <span class="dash">-</span></span> </span>
+ <span class="price-type">&#8377; 500</span> 
+</div><span></span></span></div>
+  </div>
+  <div class="menu-section-desc">Locally sourced fruit compote, whipped cream,
+whipped butter, warm maple syrup</div> 
+  <div class="addons">
+   
+   
+  </div>
+</div>
+</div> </div></div>  </div><div class="menu-section-subtitle">Regional Classics</div>
+<div class="section-main-description">6:00－10:00 </div>
+  <div class="menu-section-list">    <div class="menu-section-list-wrap"><div class="uk-grid-collapse uk-child-width-1-2@s uk-grid" uk-grid="" uk-height-match=".menu-section-item"><div>
+<div class="menu-image"><img src="" width="471" height="237"></div>
+ <div class="menu-section-item">
+  <div class="menu-section-item-info">
+   <div class="menu-section-name">Idlis</div>
+   <div class="menu-section-price"><span class="price"><div class="pricesec">
+<span class="price-mulitple"><span class="multiple-pricesec"> <span></span> <span class="dash">-</span></span> </span>
+ <span class="price-type">&#8377; 500</span> 
+</div><span></span></span></div>
+  </div>
+  <div class="menu-section-desc">Three pieces: Steamed rice and lentil cake,
+sambhar, homemade chutneys
+Protein | Sodium | Vitamin A</div> 
+  <div class="addons">
+   
+   
+  </div>
+</div>
+</div><div>
+<div class="menu-image"><img src="" width="471" height="237"></div>
+ <div class="menu-section-item">
+  <div class="menu-section-item-info">
+   <div class="menu-section-name">Dosa</div>
+   <div class="menu-section-price"><span class="price"><div class="pricesec">
+<span class="price-mulitple"><span class="multiple-pricesec"> <span></span> <span class="dash">-</span></span> </span>
+ <span class="price-type">&#8377; 500</span> 
+</div><span></span></span></div>
+  </div>
+  <div class="menu-section-desc">Thin crisp rice and lentil pancake,served with sambhar, homemade chutneys
+Choice of: Plain/ Onion/ Masala/ Mysore masala
+Protein | Sodium | Potassium</div> 
+  <div class="addons">
+   
+   
+  </div>
+</div>
+</div><div>
+<div class="menu-image"><img src="" width="471" height="237"></div>
+ <div class="menu-section-item">
+  <div class="menu-section-item-info">
+   <div class="menu-section-name">Uthappam</div>
+   <div class="menu-section-price"><span class="price"><div class="pricesec">
+<span class="price-mulitple"><span class="multiple-pricesec"> <span></span> <span class="dash">-</span></span> </span>
+ <span class="price-type">&#8377; 500</span> 
+</div><span></span></span></div>
+  </div>
+  <div class="menu-section-desc">Two pieces griddle cooked rice pancake,
+served with sambhar, homemade chutneys
+Choice of: Plain/ Onion/ Tomato /
+Coriander/ Chillies
+Calcium | Sodium | Potassium</div> 
+  <div class="addons">
+   
+   
+  </div>
+</div>
+</div><div>
+<div class="menu-image"><img src="" width="471" height="237"></div>
+ <div class="menu-section-item">
+  <div class="menu-section-item-info">
+   <div class="menu-section-name">Medu Vada</div>
+   <div class="menu-section-price"><span class="price"><div class="pricesec">
+<span class="price-mulitple"><span class="multiple-pricesec"> <span></span> <span class="dash">-</span></span> </span>
+ <span class="price-type">&#8377; 500</span> 
+</div><span></span></span></div>
+  </div>
+  <div class="menu-section-desc">Three pieces: Deep fried lentil dumpling,
+
+served with sambhar, homemade chutneys</div> 
+  <div class="addons">
+   
+   
+  </div>
+</div>
+</div><div>
+<div class="menu-image"><img src="" width="471" height="237"></div>
+ <div class="menu-section-item">
+  <div class="menu-section-item-info">
+   <div class="menu-section-name">Vermicelli Upma</div>
+   <div class="menu-section-price"><span class="price"><div class="pricesec">
+<span class="price-mulitple"><span class="multiple-pricesec"> <span></span> <span class="dash">-</span></span> </span>
+ <span class="price-type">&#8377; 500</span> 
+</div><span></span></span></div>
+  </div>
+  <div class="menu-section-desc">Savoury vermicelli, onion, carrot, green peas,
+served with sambhar, homemade chutneys</div> 
+  <div class="addons">
+   
+   
+  </div>
+</div>
+</div><div>
+<div class="menu-image"><img src="" width="471" height="237"></div>
+ <div class="menu-section-item">
+  <div class="menu-section-item-info">
+   <div class="menu-section-name">Poori Bhaji</div>
+   <div class="menu-section-price"><span class="price"><div class="pricesec">
+<span class="price-mulitple"><span class="multiple-pricesec"> <span></span> <span class="dash">-</span></span> </span>
+ <span class="price-type">&#8377; 500</span> 
+</div><span></span></span></div>
+  </div>
+  <div class="menu-section-desc">Four pieces: Deep fried semolina - wheat bread,
+served with potato curry</div> 
+  <div class="addons">
+   
+   
+  </div>
+</div>
+</div><div>
+<div class="menu-image"><img src="" width="471" height="237"></div>
+ <div class="menu-section-item">
+  <div class="menu-section-item-info">
+   <div class="menu-section-name">Paratha</div>
+   <div class="menu-section-price"><span class="price"><div class="pricesec">
+<span class="price-mulitple"><span class="multiple-pricesec"> <span></span> <span class="dash">-</span></span> </span>
+ <span class="price-type">&#8377; 500</span> 
+</div><span></span></span></div>
+  </div>
+  <div class="menu-section-desc">Choice of stuffing: Potato/ Cauliflower/
+Cottage cheese/ Processed Cheese
+Two pieces: Griddle cooked stuffed
+whole wheat bread, homemade yoghurt,
+pickle</div> 
+  <div class="addons">
+   
+   
+  </div>
+</div>
+</div> </div></div>  </div></div>
+</div>  <div class="menu-section-box" data-name="Lunch & Dinner">
+<div class="menu-main-desc-title">
+<div class="menu-main-title">Lunch & Dinner</div>
+<div class="menu-disclaimer"> 
+12:30 pm to 11:00 pm</div>
+</div>
+<div class="menu-section-box-wrap"><div class="menu-section-subtitle">Soups</div>
+<div class="section-main-description">12:00－23:00 </div>
+  <div class="menu-section-list">    <div class="menu-section-list-wrap"><div class="uk-grid-collapse uk-child-width-1-2@s uk-grid" uk-grid="" uk-height-match=".menu-section-item"><div>
+<div class="menu-image"><img src="" width="471" height="237"></div>
+ <div class="menu-section-item">
+  <div class="menu-section-item-info">
+   <div class="menu-section-name">Mushroom Soup With Confit Garlic</div>
+   <div class="menu-section-price"><span class="price"><div class="pricesec">
+<span class="price-mulitple"><span class="multiple-pricesec"> <span></span> <span class="dash">-</span></span> </span>
+ <span class="price-type">&#8377; 475</span> 
+</div><span></span></span></div>
+  </div>
+  <div class="menu-section-desc">Wild mushrooms, cream, roasted garlic oil</div> 
+  <div class="addons">
+   
+   
+  </div>
+</div>
+</div><div>
+<div class="menu-image"><img src="" width="471" height="237"></div>
+ <div class="menu-section-item">
+  <div class="menu-section-item-info">
+   <div class="menu-section-name">Seb Tamatar Shorba</div>
+   <div class="menu-section-price"><span class="price"><div class="pricesec">
+<span class="price-mulitple"><span class="multiple-pricesec"> <span></span> <span class="dash">-</span></span> </span>
+ <span class="price-type">&#8377; 475</span> 
+</div><span></span></span></div>
+  </div>
+  <div class="menu-section-desc">Tomato, apple, aromatic spices
+Vitamin C, A | sodium | potassium</div> 
+  <div class="addons">
+   
+   
+  </div>
+</div>
+</div><div>
+<div class="menu-image"><img src="" width="471" height="237"></div>
+ <div class="menu-section-item">
+  <div class="menu-section-item-info">
+   <div class="menu-section-name">Chicken Minestrone</div>
+   <div class="menu-section-price"><span class="price"><div class="pricesec">
+<span class="price-mulitple"><span class="multiple-pricesec"> <span></span> <span class="dash">-</span></span> </span>
+ <span class="price-type">&#8377; 525</span> 
+</div><span></span></span></div>
+  </div>
+  <div class="menu-section-desc">Tomato, chicken, pasta, parmesan, flavoured with basil</div> 
+  <div class="addons">
+   
+   
+  </div>
+</div>
+</div><div>
+<div class="menu-image"><img src="" width="471" height="237"></div>
+ <div class="menu-section-item">
+  <div class="menu-section-item-info">
+   <div class="menu-section-name">Singaporean Laksa Soup
+(Chicken/Prawn)</div>
+   <div class="menu-section-price"><span class="price"><div class="pricesec">
+<span class="price-mulitple"><span class="multiple-pricesec"> <span></span> <span class="dash">-</span></span> </span>
+ <span class="price-type">&#8377; 500/ 475</span> 
+</div><span></span></span></div>
+  </div>
+  <div class="menu-section-desc">Coconut cream, noodles, galangal,lemongrass</div> 
+  <div class="addons">
+   
+   
+  </div>
+</div>
+</div><div>
+<div class="menu-image"><img src="" width="471" height="237"></div>
+ <div class="menu-section-item">
+  <div class="menu-section-item-info">
+   <div class="menu-section-name">Chilli Lemon Soup
+(Vegetable/Chicken)</div>
+   <div class="menu-section-price"><span class="price"><div class="pricesec">
+<span class="price-mulitple"><span class="multiple-pricesec"> <span></span> <span class="dash">-</span></span> </span>
+ <span class="price-type">&#8377; 475/ 475</span> 
+</div><span></span></span></div>
+  </div>
+  <div class="menu-section-desc">Shitake mushroom, coriander chop,lemon juice,
+scallions, light soy</div> 
+  <div class="addons">
+   
+   
+  </div>
+</div>
+</div> </div></div>  </div><div class="menu-section-subtitle">Salads</div>
+<div class="section-main-description">12:00－23:00 </div>
+  <div class="menu-section-list">    <div class="menu-section-list-wrap"><div class="uk-grid-collapse uk-child-width-1-2@s uk-grid" uk-grid="" uk-height-match=".menu-section-item"><div>
+<div class="menu-image"><img src="" width="471" height="237"></div>
+ <div class="menu-section-item">
+  <div class="menu-section-item-info">
+   <div class="menu-section-name">Avocado Beetroot Orange Feta Amarnath Puffs</div>
+   <div class="menu-section-price"><span class="price"><div class="pricesec">
+<span class="price-mulitple"><span class="multiple-pricesec"> <span></span> <span class="dash">-</span></span> </span>
+ <span class="price-type">&#8377; 700</span> 
+</div><span></span></span></div>
+  </div>
+  <div class="menu-section-desc">Honey orange dressing
+Vitamin A, C | fibre | calcium</div> 
+  <div class="addons">
+   
+   
+  </div>
+</div>
+</div><div>
+<div class="menu-image"><img src="" width="471" height="237"></div>
+ <div class="menu-section-item">
+  <div class="menu-section-item-info">
+   <div class="menu-section-name">Eerl Grey Tea Scented
+Watermelon And Fetacheese Salad</div>
+   <div class="menu-section-price"><span class="price"><div class="pricesec">
+<span class="price-mulitple"><span class="multiple-pricesec"> <span></span> <span class="dash">-</span></span> </span>
+ <span class="price-type">&#8377; 700</span> 
+</div><span></span></span></div>
+  </div>
+  <div class="menu-section-desc">Arugula, candied walnut, balsamic</div> 
+  <div class="addons">
+   
+   
+  </div>
+</div>
+</div><div>
+<div class="menu-image"><img src="" width="471" height="237"></div>
+ <div class="menu-section-item">
+  <div class="menu-section-item-info">
+   <div class="menu-section-name">Mediterranean Salad With Falafel</div>
+   <div class="menu-section-price"><span class="price"><div class="pricesec">
+<span class="price-mulitple"><span class="multiple-pricesec"> <span></span> <span class="dash">-</span></span> </span>
+ <span class="price-type">&#8377; 725</span> 
+</div><span></span></span></div>
+  </div>
+  <div class="menu-section-desc">Tahini dressing, cucumber, bellpeper,olives,
+onion, tomato, crushed falafel</div> 
+  <div class="addons">
+   
+   
+  </div>
+</div>
+</div><div>
+<div class="menu-image"><img src="" width="471" height="237"></div>
+ <div class="menu-section-item">
+  <div class="menu-section-item-info">
+   <div class="menu-section-name">Organic Red Quinoa, Mesclun Greens, Poached Egg</div>
+   <div class="menu-section-price"><span class="price"><div class="pricesec">
+<span class="price-mulitple"><span class="multiple-pricesec"> <span></span> <span class="dash">-</span></span> </span>
+ <span class="price-type">&#8377; 700</span> 
+</div><span></span></span></div>
+  </div>
+  <div class="menu-section-desc">Lemon vinaigrette, brunoise of carrot,
+onion, cucumber
+Potassium | sodium | vitamin A, C</div> 
+  <div class="addons">
+   
+   
+  </div>
+</div>
+</div><div>
+<div class="menu-image"><img src="" width="471" height="237"></div>
+ <div class="menu-section-item">
+  <div class="menu-section-item-info">
+   <div class="menu-section-name">Caesar Salad</div>
+   <div class="menu-section-price"><span class="price"><div class="pricesec">
+<span class="price-mulitple"><span class="multiple-pricesec"> <span></span> <span class="dash">-</span></span> </span>
+ <span class="price-type">&#8377; 700</span> 
+</div><span></span></span></div>
+  </div>
+  <div class="menu-section-desc">Fresh-cut local Romaine lettuce, shaved
+parmesan cheese, croutons
+house caesar dressing, silver skin anchovies
+Sodium | calcium | iron</div> 
+  <div class="addons">
+   
+   
+  </div>
+</div>
+</div><div>
+<div class="menu-image"><img src="" width="471" height="237"></div>
+ <div class="menu-section-item">
+  <div class="menu-section-item-info">
+   <div class="menu-section-name">Add Protein To Any Salad (Per Protein)</div>
+   <div class="menu-section-price"><span class="price"><div class="pricesec">
+<span class="price-mulitple"><span class="multiple-pricesec"> <span></span> <span class="dash">-</span></span> </span>
+ <span class="price-type">&#8377; Non Veg 250  Veg 175</span> 
+</div><span></span></span></div>
+  </div>
+  <div class="menu-section-desc">Grilled cajun chicken breast Grilled bacon Seared salmon Grilled prawns</div> 
+  <div class="addons">
+   
+   
+  </div>
+</div>
+</div> </div></div>  </div><div class="menu-section-subtitle">Appetizers</div>
+<div class="section-main-description">12:00－23:00 </div>
+  <div class="menu-section-list">    <div class="menu-section-list-wrap"><div class="uk-grid-collapse uk-child-width-1-2@s uk-grid" uk-grid="" uk-height-match=".menu-section-item"><div>
+<div class="menu-image"><img src="" width="471" height="237"></div>
+ <div class="menu-section-item">
+  <div class="menu-section-item-info">
+   <div class="menu-section-name">Thai Chili Prawns</div>
+   <div class="menu-section-price"><span class="price"><div class="pricesec">
+<span class="price-mulitple"><span class="multiple-pricesec"> <span></span> <span class="dash">-</span></span> </span>
+ <span class="price-type">&#8377; 1050</span> 
+</div><span></span></span></div>
+  </div>
+  <div class="menu-section-desc">Wok tossed prawns, galangal, lemon grass,
+kaffir lime, bird eye chili</div> 
+  <div class="addons">
+   
+   
+  </div>
+</div>
+</div><div>
+<div class="menu-image"><img src="" width="471" height="237"></div>
+ <div class="menu-section-item">
+  <div class="menu-section-item-info">
+   <div class="menu-section-name">Crumb Fried Calamari</div>
+   <div class="menu-section-price"><span class="price"><div class="pricesec">
+<span class="price-mulitple"><span class="multiple-pricesec"> <span></span> <span class="dash">-</span></span> </span>
+ <span class="price-type">&#8377; 950</span> 
+</div><span></span></span></div>
+  </div>
+  <div class="menu-section-desc">Panko coated squid, chili garlic mayo</div> 
+  <div class="addons">
+   
+   
+  </div>
+</div>
+</div><div>
+<div class="menu-image"><img src="" width="471" height="237"></div>
+ <div class="menu-section-item">
+  <div class="menu-section-item-info">
+   <div class="menu-section-name">Spicy Korean Chicken</div>
+   <div class="menu-section-price"><span class="price"><div class="pricesec">
+<span class="price-mulitple"><span class="multiple-pricesec"> <span></span> <span class="dash">-</span></span> </span>
+ <span class="price-type">&#8377; 950</span> 
+</div><span></span></span></div>
+  </div>
+  <div class="menu-section-desc">Diced chicken, Korean sauce, scallions,
+garlic, oyster sauce, sesame oil</div> 
+  <div class="addons">
+   
+   
+  </div>
+</div>
+</div><div>
+<div class="menu-image"><img src="" width="471" height="237"></div>
+ <div class="menu-section-item">
+  <div class="menu-section-item-info">
+   <div class="menu-section-name">Jhinga Nisa</div>
+   <div class="menu-section-price"><span class="price"><div class="pricesec">
+<span class="price-mulitple"><span class="multiple-pricesec"> <span></span> <span class="dash">-</span></span> </span>
+ <span class="price-type">&#8377; 1250</span> 
+</div><span></span></span></div>
+  </div>
+  <div class="menu-section-desc">Prawns, caraway seeds, yoghurt,
+yellow chili</div> 
+  <div class="addons">
+   
+   
+  </div>
+</div>
+</div><div>
+<div class="menu-image"><img src="" width="471" height="237"></div>
+ <div class="menu-section-item">
+  <div class="menu-section-item-info">
+   <div class="menu-section-name">Sarson Mahi Tikka</div>
+   <div class="menu-section-price"><span class="price"><div class="pricesec">
+<span class="price-mulitple"><span class="multiple-pricesec"> <span></span> <span class="dash">-</span></span> </span>
+ <span class="price-type">&#8377; 950</span> 
+</div><span></span></span></div>
+  </div>
+  <div class="menu-section-desc">Black Bhetki cubes, mustard,
+hung curd, ginger garlic</div> 
+  <div class="addons">
+   
+   
+  </div>
+</div>
+</div><div>
+<div class="menu-image"><img src="" width="471" height="237"></div>
+ <div class="menu-section-item">
+  <div class="menu-section-item-info">
+   <div class="menu-section-name">Gosht Seekh Kebab</div>
+   <div class="menu-section-price"><span class="price"><div class="pricesec">
+<span class="price-mulitple"><span class="multiple-pricesec"> <span></span> <span class="dash">-</span></span> </span>
+ <span class="price-type">&#8377; 950</span> 
+</div><span></span></span></div>
+  </div>
+  <div class="menu-section-desc">Ginger, garlic, chili, mint, lamb
+skewers</div> 
+  <div class="addons">
+   
+   
+  </div>
+</div>
+</div><div>
+<div class="menu-image"><img src="" width="471" height="237"></div>
+ <div class="menu-section-item">
+  <div class="menu-section-item-info">
+   <div class="menu-section-name">Bhatti Da Murgh</div>
+   <div class="menu-section-price"><span class="price"><div class="pricesec">
+<span class="price-mulitple"><span class="multiple-pricesec"> <span></span> <span class="dash">-</span></span> </span>
+ <span class="price-type">&#8377; 950</span> 
+</div><span></span></span></div>
+  </div>
+  <div class="menu-section-desc">Chicken morsels, black cardamom,
+chili powder, mustard oil, yoghurt</div> 
+  <div class="addons">
+   
+   
+  </div>
+</div>
+</div><div>
+<div class="menu-image"><img src="" width="471" height="237"></div>
+ <div class="menu-section-item">
+  <div class="menu-section-item-info">
+   <div class="menu-section-name">Hariyali Paneer Tikka</div>
+   <div class="menu-section-price"><span class="price"><div class="pricesec">
+<span class="price-mulitple"><span class="multiple-pricesec"> <span></span> <span class="dash">-</span></span> </span>
+ <span class="price-type">&#8377; 895</span> 
+</div><span></span></span></div>
+  </div>
+  <div class="menu-section-desc">Cottage cheese marinated ina
+mixture of yoghurt, mint</div> 
+  <div class="addons">
+   
+   
+  </div>
+</div>
+</div><div>
+<div class="menu-image"><img src="" width="471" height="237"></div>
+ <div class="menu-section-item">
+  <div class="menu-section-item-info">
+   <div class="menu-section-name">Makai Methi Kebab</div>
+   <div class="menu-section-price"><span class="price"><div class="pricesec">
+<span class="price-mulitple"><span class="multiple-pricesec"> <span></span> <span class="dash">-</span></span> </span>
+ <span class="price-type">&#8377; 850</span> 
+</div><span></span></span></div>
+  </div>
+  <div class="menu-section-desc">Yoghurt, chili stuffed fenugreek corn cakes</div> 
+  <div class="addons">
+   
+   
+  </div>
+</div>
+</div><div>
+<div class="menu-image"><img src="" width="471" height="237"></div>
+ <div class="menu-section-item">
+  <div class="menu-section-item-info">
+   <div class="menu-section-name">Mezze Platter</div>
+   <div class="menu-section-price"><span class="price"><div class="pricesec">
+<span class="price-mulitple"><span class="multiple-pricesec"> <span></span> <span class="dash">-</span></span> </span>
+ <span class="price-type">&#8377; 875</span> 
+</div><span></span></span></div>
+  </div>
+  <div class="menu-section-desc">Hummus, labneh, baba ganoush, tzatziki, falafel, pita bread
+Protein | folate | vitamin A, C</div> 
+  <div class="addons">
+   
+   
+  </div>
+</div>
+</div><div>
+<div class="menu-image"><img src="" width="471" height="237"></div>
+ <div class="menu-section-item">
+  <div class="menu-section-item-info">
+   <div class="menu-section-name">Jalapeno Cheddar Cheese</div>
+   <div class="menu-section-price"><span class="price"><div class="pricesec">
+<span class="price-mulitple"><span class="multiple-pricesec"> <span></span> <span class="dash">-</span></span> </span>
+ <span class="price-type">&#8377; 725</span> 
+</div><span></span></span></div>
+  </div>
+  <div class="menu-section-desc">Baguette slices, chopped jalapenos,cheese and wafers</div> 
+  <div class="addons">
+   
+   
+  </div>
+</div>
+</div><div>
+<div class="menu-image"><img src="" width="471" height="237"></div>
+ <div class="menu-section-item">
+  <div class="menu-section-item-info">
+   <div class="menu-section-name">Crisp Chili Baby Corn</div>
+   <div class="menu-section-price"><span class="price"><div class="pricesec">
+<span class="price-mulitple"><span class="multiple-pricesec"> <span></span> <span class="dash">-</span></span> </span>
+ <span class="price-type">&#8377; 750</span> 
+</div><span></span></span></div>
+  </div>
+  <div class="menu-section-desc">Baby corn, soy, chili, garlic</div> 
+  <div class="addons">
+   
+   
+  </div>
+</div>
+</div> </div></div>  </div><div class="menu-section-subtitle">Sandwiches & Burger</div>
+<div class="section-main-description">12:00－23:00 </div>
+  <div class="menu-section-list">    <div class="menu-section-list-wrap"><div class="uk-grid-collapse uk-child-width-1-2@s uk-grid" uk-grid="" uk-height-match=".menu-section-item"><div>
+<div class="menu-image"><img src="" width="471" height="237"></div>
+ <div class="menu-section-item">
+  <div class="menu-section-item-info">
+   <div class="menu-section-name">The Classic Club</div>
+   <div class="menu-section-price"><span class="price"><div class="pricesec">
+<span class="price-mulitple"><span class="multiple-pricesec"> <span></span> <span class="dash">-</span></span> </span>
+ <span class="price-type">&#8377; 1050</span> 
+</div><span></span></span></div>
+  </div>
+  <div class="menu-section-desc">Roasted turkey, bacon, lettuce,
+tomato, mayo, white toast</div> 
+  <div class="addons">
+   
+   
+  </div>
+</div>
+</div><div>
+<div class="menu-image"><img src="" width="471" height="237"></div>
+ <div class="menu-section-item">
+  <div class="menu-section-item-info">
+   <div class="menu-section-name">Grilled Chicken Tikka</div>
+   <div class="menu-section-price"><span class="price"><div class="pricesec">
+<span class="price-mulitple"><span class="multiple-pricesec"> <span></span> <span class="dash">-</span></span> </span>
+ <span class="price-type">&#8377; 950</span> 
+</div><span></span></span></div>
+  </div>
+  <div class="menu-section-desc">Chicken tikka, onion, tomatoes, cocktail mayo</div> 
+  <div class="addons">
+   
+   
+  </div>
+</div>
+</div><div>
+<div class="menu-image"><img src="" width="471" height="237"></div>
+ <div class="menu-section-item">
+  <div class="menu-section-item-info">
+   <div class="menu-section-name">Crispy Fried Chicken Burger</div>
+   <div class="menu-section-price"><span class="price"><div class="pricesec">
+<span class="price-mulitple"><span class="multiple-pricesec"> <span></span> <span class="dash">-</span></span> </span>
+ <span class="price-type">&#8377; 950</span> 
+</div><span></span></span></div>
+  </div>
+  <div class="menu-section-desc">Sesame bun, cheddar cheese, tomato,
+lettuce, gherkin</div> 
+  <div class="addons">
+   
+   
+  </div>
+</div>
+</div><div>
+<div class="menu-image"><img src="" width="471" height="237"></div>
+ <div class="menu-section-item">
+  <div class="menu-section-item-info">
+   <div class="menu-section-name">Ham And Cheese</div>
+   <div class="menu-section-price"><span class="price"><div class="pricesec">
+<span class="price-mulitple"><span class="multiple-pricesec"> <span></span> <span class="dash">-</span></span> </span>
+ <span class="price-type">&#8377; 950</span> 
+</div><span></span></span></div>
+  </div>
+  <div class="menu-section-desc">Honey roasted pork ham, Swiss cheese,
+mustard, pickle gherkin</div> 
+  <div class="addons">
+   
+   
+  </div>
+</div>
+</div><div>
+<div class="menu-image"><img src="" width="471" height="237"></div>
+ <div class="menu-section-item">
+  <div class="menu-section-item-info">
+   <div class="menu-section-name">Primavera Burger</div>
+   <div class="menu-section-price"><span class="price"><div class="pricesec">
+<span class="price-mulitple"><span class="multiple-pricesec"> <span></span> <span class="dash">-</span></span> </span>
+ <span class="price-type">&#8377; 900</span> 
+</div><span></span></span></div>
+  </div>
+  <div class="menu-section-desc">Garden vegetable patty, sesame bun,
+slaw, tomato, cheddar cheese
+Sodium | potassium | vitamin B-12</div> 
+  <div class="addons">
+   
+   
+  </div>
+</div>
+</div><div>
+<div class="menu-image"><img src="" width="471" height="237"></div>
+ <div class="menu-section-item">
+  <div class="menu-section-item-info">
+   <div class="menu-section-name">Classic Vegetable Club</div>
+   <div class="menu-section-price"><span class="price"><div class="pricesec">
+<span class="price-mulitple"><span class="multiple-pricesec"> <span></span> <span class="dash">-</span></span> </span>
+ <span class="price-type">&#8377; 950</span> 
+</div><span></span></span></div>
+  </div>
+  <div class="menu-section-desc">Grilled peppers, zucchini, lettuce,
+cucumber, tomato</div> 
+  <div class="addons">
+   
+   
+  </div>
+</div>
+</div><div>
+<div class="menu-image"><img src="" width="471" height="237"></div>
+ <div class="menu-section-item">
+  <div class="menu-section-item-info">
+   <div class="menu-section-name">Bombay Masala Sandwich</div>
+   <div class="menu-section-price"><span class="price"><div class="pricesec">
+<span class="price-mulitple"><span class="multiple-pricesec"> <span></span> <span class="dash">-</span></span> </span>
+ <span class="price-type">&#8377; 900</span> 
+</div><span></span></span></div>
+  </div>
+  <div class="menu-section-desc">Spiced potato, mint, onion, cucumber</div> 
+  <div class="addons">
+   
+   
+  </div>
+</div>
+</div> </div></div>  </div><div class="menu-section-subtitle">Western & Asian Mains</div>
+<div class="section-main-description">12:00－23:00 </div>
+  <div class="menu-section-list">    <div class="menu-section-list-wrap"><div class="uk-grid-collapse uk-child-width-1-2@s uk-grid" uk-grid="" uk-height-match=".menu-section-item"><div>
+<div class="menu-image"><img src="" width="471" height="237"></div>
+ <div class="menu-section-item">
+  <div class="menu-section-item-info">
+   <div class="menu-section-name">Spaghetti Arrabbiata</div>
+   <div class="menu-section-price"><span class="price"><div class="pricesec">
+<span class="price-mulitple"><span class="multiple-pricesec"> <span></span> <span class="dash">-</span></span> </span>
+ <span class="price-type">&#8377; 950</span> 
+</div><span></span></span></div>
+  </div>
+  <div class="menu-section-desc">Spicy tomato sauce, parmigiana
+reggiano</div> 
+  <div class="addons">
+   
+   
+  </div>
+</div>
+</div><div>
+<div class="menu-image"><img src="" width="471" height="237"></div>
+ <div class="menu-section-item">
+  <div class="menu-section-item-info">
+   <div class="menu-section-name">Penne Ala Funghi</div>
+   <div class="menu-section-price"><span class="price"><div class="pricesec">
+<span class="price-mulitple"><span class="multiple-pricesec"> <span></span> <span class="dash">-</span></span> </span>
+ <span class="price-type">&#8377; 1050</span> 
+</div><span></span></span></div>
+  </div>
+  <div class="menu-section-desc">Shimeji, button mushroom,cream sauce,
+parmigiana reggiano</div> 
+  <div class="addons">
+   
+   
+  </div>
+</div>
+</div><div>
+<div class="menu-image"><img src="" width="471" height="237"></div>
+ <div class="menu-section-item">
+  <div class="menu-section-item-info">
+   <div class="menu-section-name">Fettuccine Lamb Ragu</div>
+   <div class="menu-section-price"><span class="price"><div class="pricesec">
+<span class="price-mulitple"><span class="multiple-pricesec"> <span></span> <span class="dash">-</span></span> </span>
+ <span class="price-type">&#8377; 1200</span> 
+</div><span></span></span></div>
+  </div>
+  <div class="menu-section-desc">Lamb, tomato, red wine, parmigiana
+reggiano</div> 
+  <div class="addons">
+   
+   
+  </div>
+</div>
+</div><div>
+<div class="menu-image"><img src="" width="471" height="237"></div>
+ <div class="menu-section-item">
+  <div class="menu-section-item-info">
+   <div class="menu-section-name">Lobster Linguine</div>
+   <div class="menu-section-price"><span class="price"><div class="pricesec">
+<span class="price-mulitple"><span class="multiple-pricesec"> <span></span> <span class="dash">-</span></span> </span>
+ <span class="price-type">&#8377; 1250</span> 
+</div><span></span></span></div>
+  </div>
+  <div class="menu-section-desc">Honey roasted pork ham, Swiss cheese,
+mustard, pickle gherkin</div> 
+  <div class="addons">
+   
+   
+  </div>
+</div>
+</div><div>
+<div class="menu-image"><img src="" width="471" height="237"></div>
+ <div class="menu-section-item">
+  <div class="menu-section-item-info">
+   <div class="menu-section-name">Ratatouille Lasagna</div>
+   <div class="menu-section-price"><span class="price"><div class="pricesec">
+<span class="price-mulitple"><span class="multiple-pricesec"> <span></span> <span class="dash">-</span></span> </span>
+ <span class="price-type">&#8377; 1050</span> 
+</div><span></span></span></div>
+  </div>
+  <div class="menu-section-desc">Roasted vegetables tossed with
+plum tomato sauce,layered with
+lasagna sheets, gratinated with cheese</div> 
+  <div class="addons">
+   
+   
+  </div>
+</div>
+</div><div>
+<div class="menu-image"><img src="" width="471" height="237"></div>
+ <div class="menu-section-item">
+  <div class="menu-section-item-info">
+   <div class="menu-section-name">Red Snapper</div>
+   <div class="menu-section-price"><span class="price"><div class="pricesec">
+<span class="price-mulitple"><span class="multiple-pricesec"> <span></span> <span class="dash">-</span></span> </span>
+ <span class="price-type">&#8377; 1250</span> 
+</div><span></span></span></div>
+  </div>
+  <div class="menu-section-desc">Grilled red snapper, lemon butter
+sauce, garlic potato mash,
+sautéed peppers and spinach</div> 
+  <div class="addons">
+   
+   
+  </div>
+</div>
+</div><div>
+<div class="menu-image"><img src="" width="471" height="237"></div>
+ <div class="menu-section-item">
+  <div class="menu-section-item-info">
+   <div class="menu-section-name">Norwegian Salmon</div>
+   <div class="menu-section-price"><span class="price"><div class="pricesec">
+<span class="price-mulitple"><span class="multiple-pricesec"> <span></span> <span class="dash">-</span></span> </span>
+ <span class="price-type">&#8377; 1550</span> 
+</div><span></span></span></div>
+  </div>
+  <div class="menu-section-desc">Grilled salmon fillet, truffle potato mash,
+sautéed broccoli, asparagus, lemon butter sauce
+Protein | vitamin d-b12 | omega 3</div> 
+  <div class="addons">
+   
+   
+  </div>
+</div>
+</div><div>
+<div class="menu-image"><img src="" width="471" height="237"></div>
+ <div class="menu-section-item">
+  <div class="menu-section-item-info">
+   <div class="menu-section-name">Free Range Chicken Breast</div>
+   <div class="menu-section-price"><span class="price"><div class="pricesec">
+<span class="price-mulitple"><span class="multiple-pricesec"> <span></span> <span class="dash">-</span></span> </span>
+ <span class="price-type">&#8377; 1250</span> 
+</div><span></span></span></div>
+  </div>
+  <div class="menu-section-desc">Grilled chicken breast, potato mash,
+seasonal vegetables, pepper jus</div> 
+  <div class="addons">
+   
+   
+  </div>
+</div>
+</div><div>
+<div class="menu-image"><img src="" width="471" height="237"></div>
+ <div class="menu-section-item">
+  <div class="menu-section-item-info">
+   <div class="menu-section-name">Chicken Black Pepper Sauce</div>
+   <div class="menu-section-price"><span class="price"><div class="pricesec">
+<span class="price-mulitple"><span class="multiple-pricesec"> <span></span> <span class="dash">-</span></span> </span>
+ <span class="price-type">&#8377; 1100</span> 
+</div><span></span></span></div>
+  </div>
+  <div class="menu-section-desc">Chicken cubes, bell pepper, soy, black pepper</div> 
+  <div class="addons">
+   
+   
+  </div>
+</div>
+</div><div>
+<div class="menu-image"><img src="" width="471" height="237"></div>
+ <div class="menu-section-item">
+  <div class="menu-section-item-info">
+   <div class="menu-section-name">Stir-Fry Asian Greens Chili Basil Sauce</div>
+   <div class="menu-section-price"><span class="price"><div class="pricesec">
+<span class="price-mulitple"><span class="multiple-pricesec"> <span></span> <span class="dash">-</span></span> </span>
+ <span class="price-type">&#8377; 950</span> 
+</div><span></span></span></div>
+  </div>
+  <div class="menu-section-desc">Bok choy, zucchini, tofu, broccoli in
+chili basil sauce</div> 
+  <div class="addons">
+   
+   
+  </div>
+</div>
+</div><div>
+<div class="menu-image"><img src="" width="471" height="237"></div>
+ <div class="menu-section-item">
+  <div class="menu-section-item-info">
+   <div class="menu-section-name">Stir-Fry Noodles (Vegetables/Chicken/ Prawns)</div>
+   <div class="menu-section-price"><span class="price"><div class="pricesec">
+<span class="price-mulitple"><span class="multiple-pricesec"> <span></span> <span class="dash">-</span></span> </span>
+ <span class="price-type">&#8377; 675/ 700 / 725</span> 
+</div><span></span></span></div>
+  </div>
+  <div class="menu-section-desc">(Hakka/Schezwan)</div> 
+  <div class="addons">
+   
+   
+  </div>
+</div>
+</div><div>
+<div class="menu-image"><img src="" width="471" height="237"></div>
+ <div class="menu-section-item">
+  <div class="menu-section-item-info">
+   <div class="menu-section-name">Wok Tossed Fried Rice (Vegetables/Chicken/ Seafood)</div>
+   <div class="menu-section-price"><span class="price"><div class="pricesec">
+<span class="price-mulitple"><span class="multiple-pricesec"> <span></span> <span class="dash">-</span></span> </span>
+ <span class="price-type">&#8377; 675/ 700 / 726</span> 
+</div><span></span></span></div>
+  </div>
+  <div class="menu-section-desc">(Burnt garlic/Hibachi/Schezwan)</div> 
+  <div class="addons">
+   
+   
+  </div>
+</div>
+</div> </div></div>  </div><div class="menu-section-subtitle">Indian Mains</div>
+<div class="section-main-description">12:00－23:00 </div>
+  <div class="menu-section-list">    <div class="menu-section-list-wrap"><div class="uk-grid-collapse uk-child-width-1-2@s uk-grid" uk-grid="" uk-height-match=".menu-section-item"><div>
+<div class="menu-image"><img src="" width="471" height="237"></div>
+ <div class="menu-section-item">
+  <div class="menu-section-item-info">
+   <div class="menu-section-name">Paneer Butter Masala</div>
+   <div class="menu-section-price"><span class="price"><div class="pricesec">
+<span class="price-mulitple"><span class="multiple-pricesec"> <span></span> <span class="dash">-</span></span> </span>
+ <span class="price-type">&#8377; 1150</span> 
+</div><span></span></span></div>
+  </div>
+  <div class="menu-section-desc">Stewed cottage cheese, tomato,
+fenugreek leaves, ginger, garlic,
+cream, butter</div> 
+  <div class="addons">
+   
+   
+  </div>
+</div>
+</div><div>
+<div class="menu-image"><img src="" width="471" height="237"></div>
+ <div class="menu-section-item">
+  <div class="menu-section-item-info">
+   <div class="menu-section-name">Subza</div>
+   <div class="menu-section-price"><span class="price"><div class="pricesec">
+<span class="price-mulitple"><span class="multiple-pricesec"> <span></span> <span class="dash">-</span></span> </span>
+ <span class="price-type">&#8377; 895</span> 
+</div><span></span></span></div>
+  </div>
+  <div class="menu-section-desc">Cumin & garlic tempered seasonal
+vegetables, lahori masala</div> 
+  <div class="addons">
+   
+   
+  </div>
+</div>
+</div><div>
+<div class="menu-image"><img src="" width="471" height="237"></div>
+ <div class="menu-section-item">
+  <div class="menu-section-item-info">
+   <div class="menu-section-name">Singada Palak</div>
+   <div class="menu-section-price"><span class="price"><div class="pricesec">
+<span class="price-mulitple"><span class="multiple-pricesec"> <span></span> <span class="dash">-</span></span> </span>
+ <span class="price-type">&#8377; 895</span> 
+</div><span></span></span></div>
+  </div>
+  <div class="menu-section-desc">Golden garlic tempered</div> 
+  <div class="addons">
+   
+   
+  </div>
+</div>
+</div><div>
+<div class="menu-image"><img src="" width="471" height="237"></div>
+ <div class="menu-section-item">
+  <div class="menu-section-item-info">
+   <div class="menu-section-name">Masala Bhindi</div>
+   <div class="menu-section-price"><span class="price"><div class="pricesec">
+<span class="price-mulitple"><span class="multiple-pricesec"> <span></span> <span class="dash">-</span></span> </span>
+ <span class="price-type">&#8377; 895</span> 
+</div><span></span></span></div>
+  </div>
+  <div class="menu-section-desc">Pan tossed ladyfinger, dry spices</div> 
+  <div class="addons">
+   
+   
+  </div>
+</div>
+</div><div>
+<div class="menu-image"><img src="" width="471" height="237"></div>
+ <div class="menu-section-item">
+  <div class="menu-section-item-info">
+   <div class="menu-section-name">Butter Chicken</div>
+   <div class="menu-section-price"><span class="price"><div class="pricesec">
+<span class="price-mulitple"><span class="multiple-pricesec"> <span></span> <span class="dash">-</span></span> </span>
+ <span class="price-type">&#8377; 1250</span> 
+</div><span></span></span></div>
+  </div>
+  <div class="menu-section-desc">Boneless chicken tikka, tomato
+cashew nut gravy, cream</div> 
+  <div class="addons">
+   
+   
+  </div>
+</div>
+</div><div>
+<div class="menu-image"><img src="" width="471" height="237"></div>
+ <div class="menu-section-item">
+  <div class="menu-section-item-info">
+   <div class="menu-section-name">Mutton Rogan Josh</div>
+   <div class="menu-section-price"><span class="price"><div class="pricesec">
+<span class="price-mulitple"><span class="multiple-pricesec"> <span></span> <span class="dash">-</span></span> </span>
+ <span class="price-type">&#8377; 1450</span> 
+</div><span></span></span></div>
+  </div>
+  <div class="menu-section-desc">Braised lamb, garlic, Kashmiri chili</div> 
+  <div class="addons">
+   
+   
+  </div>
+</div>
+</div><div>
+<div class="menu-image"><img src="" width="471" height="237"></div>
+ <div class="menu-section-item">
+  <div class="menu-section-item-info">
+   <div class="menu-section-name">Kozhi Varutharacha Curry</div>
+   <div class="menu-section-price"><span class="price"><div class="pricesec">
+<span class="price-mulitple"><span class="multiple-pricesec"> <span></span> <span class="dash">-</span></span> </span>
+ <span class="price-type">&#8377; 1250</span> 
+</div><span></span></span></div>
+  </div>
+  <div class="menu-section-desc">Pot roasted chicken, coconut,shallots,
+curry leaf</div> 
+  <div class="addons">
+   
+   
+  </div>
+</div>
+</div><div>
+<div class="menu-image"><img src="" width="471" height="237"></div>
+ <div class="menu-section-item">
+  <div class="menu-section-item-info">
+   <div class="menu-section-name">Malabar Fish Curry</div>
+   <div class="menu-section-price"><span class="price"><div class="pricesec">
+<span class="price-mulitple"><span class="multiple-pricesec"> <span></span> <span class="dash">-</span></span> </span>
+ <span class="price-type">&#8377; 1350</span> 
+</div><span></span></span></div>
+  </div>
+  <div class="menu-section-desc">Stewed black bhetki fish cubes,
+roasted coconut, shallots, tamarind pulp</div> 
+  <div class="addons">
+   
+   
+  </div>
+</div>
+</div><div>
+<div class="menu-image"><img src="" width="471" height="237"></div>
+ <div class="menu-section-item">
+  <div class="menu-section-item-info">
+   <div class="menu-section-name">Dal Makhani</div>
+   <div class="menu-section-price"><span class="price"><div class="pricesec">
+<span class="price-mulitple"><span class="multiple-pricesec"> <span></span> <span class="dash">-</span></span> </span>
+ <span class="price-type">&#8377; 950</span> 
+</div><span></span></span></div>
+  </div>
+  <div class="menu-section-desc">Black lentil, tomato, cream, butter</div> 
+  <div class="addons">
+   
+   
+  </div>
+</div>
+</div><div>
+<div class="menu-image"><img src="" width="471" height="237"></div>
+ <div class="menu-section-item">
+  <div class="menu-section-item-info">
+   <div class="menu-section-name">Dal Tadka</div>
+   <div class="menu-section-price"><span class="price"><div class="pricesec">
+<span class="price-mulitple"><span class="multiple-pricesec"> <span></span> <span class="dash">-</span></span> </span>
+ <span class="price-type">&#8377; 850</span> 
+</div><span></span></span></div>
+  </div>
+  <div class="menu-section-desc">Stewed arhar lentils, cumin garlic tempered</div> 
+  <div class="addons">
+   
+   
+  </div>
+</div>
+</div><div>
+<div class="menu-image"><img src="" width="471" height="237"></div>
+ <div class="menu-section-item">
+  <div class="menu-section-item-info">
+   <div class="menu-section-name">Masala Khichdi</div>
+   <div class="menu-section-price"><span class="price"><div class="pricesec">
+<span class="price-mulitple"><span class="multiple-pricesec"> <span></span> <span class="dash">-</span></span> </span>
+ <span class="price-type">&#8377; 850</span> 
+</div><span></span></span></div>
+  </div>
+  <div class="menu-section-desc">Basmati rice, lentil, clarified
+butter, cumin, turmeric</div> 
+  <div class="addons">
+   
+   
+  </div>
+</div>
+</div> </div></div>  </div><div class="menu-section-subtitle">Rice & Biryani</div>
+<div class="section-main-description">12:00－23:00 </div>
+  <div class="menu-section-list">    <div class="menu-section-list-wrap"><div class="uk-grid-collapse uk-child-width-1-2@s uk-grid" uk-grid="" uk-height-match=".menu-section-item"><div>
+<div class="menu-image"><img src="" width="471" height="237"></div>
+ <div class="menu-section-item">
+  <div class="menu-section-item-info">
+   <div class="menu-section-name">Subz Biriyani</div>
+   <div class="menu-section-price"><span class="price"><div class="pricesec">
+<span class="price-mulitple"><span class="multiple-pricesec"> <span></span> <span class="dash">-</span></span> </span>
+ <span class="price-type">&#8377; 1050</span> 
+</div><span></span></span></div>
+  </div>
+  <div class="menu-section-desc">SUBZ BIRYANI
+Basmati rice, garden fresh vegetables,
+brown onion, aromatic spices, mint</div> 
+  <div class="addons">
+   
+   
+  </div>
+</div>
+</div><div>
+<div class="menu-image"><img src="" width="471" height="237"></div>
+ <div class="menu-section-item">
+  <div class="menu-section-item-info">
+   <div class="menu-section-name">Murgh Dum Biriyani</div>
+   <div class="menu-section-price"><span class="price"><div class="pricesec">
+<span class="price-mulitple"><span class="multiple-pricesec"> <span></span> <span class="dash">-</span></span> </span>
+ <span class="price-type">&#8377; 1150</span> 
+</div><span></span></span></div>
+  </div>
+  <div class="menu-section-desc">Basmati rice, chicken morsels,
+brown onion, aromatic spices, mint</div> 
+  <div class="addons">
+   
+   
+  </div>
+</div>
+</div><div>
+<div class="menu-image"><img src="" width="471" height="237"></div>
+ <div class="menu-section-item">
+  <div class="menu-section-item-info">
+   <div class="menu-section-name">Gosht Dum Biryani</div>
+   <div class="menu-section-price"><span class="price"><div class="pricesec">
+<span class="price-mulitple"><span class="multiple-pricesec"> <span></span> <span class="dash">-</span></span> </span>
+ <span class="price-type">&#8377; 1200</span> 
+</div><span></span></span></div>
+  </div>
+  <div class="menu-section-desc">Basmati rice, mutton morsels,
+brown onion, aromatic spices, mint</div> 
+  <div class="addons">
+   
+   
+  </div>
+</div>
+</div><div>
+<div class="menu-image"><img src="" width="471" height="237"></div>
+ <div class="menu-section-item">
+  <div class="menu-section-item-info">
+   <div class="menu-section-name">Steamed Rice</div>
+   <div class="menu-section-price"><span class="price"><div class="pricesec">
+<span class="price-mulitple"><span class="multiple-pricesec"> <span></span> <span class="dash">-</span></span> </span>
+ <span class="price-type">&#8377; 400</span> 
+</div><span></span></span></div>
+  </div>
+  <div class="menu-section-desc">Fragrant basmati rice</div> 
+  <div class="addons">
+   
+   
+  </div>
+</div>
+</div><div>
+<div class="menu-image"><img src="" width="471" height="237"></div>
+ <div class="menu-section-item">
+  <div class="menu-section-item-info">
+   <div class="menu-section-name">Breads</div>
+   <div class="menu-section-price"><span class="price"><div class="pricesec">
+<span class="price-mulitple"><span class="multiple-pricesec"> <span></span> <span class="dash">-</span></span> </span>
+ <span class="price-type">&#8377; 200</span> 
+</div><span></span></span></div>
+  </div>
+  <div class="menu-section-desc">Tandoori roti | Naan | Kulcha
+Lachha paratha |Tawa paratha (2 pcs)
+Phulka (4 pcs)</div> 
+  <div class="addons">
+   
+   
+  </div>
+</div>
+</div> </div></div>  </div><div class="menu-section-subtitle">Desserts</div>
+<div class="section-main-description">12:00－23:00 </div>
+  <div class="menu-section-list">    <div class="menu-section-list-wrap"><div class="uk-grid-collapse uk-child-width-1-2@s uk-grid" uk-grid="" uk-height-match=".menu-section-item"><div>
+<div class="menu-image"><img src="" width="471" height="237"></div>
+ <div class="menu-section-item">
+  <div class="menu-section-item-info">
+   <div class="menu-section-name">Gulab Jamun</div>
+   <div class="menu-section-price"><span class="price"><div class="pricesec">
+<span class="price-mulitple"><span class="multiple-pricesec"> <span></span> <span class="dash">-</span></span> </span>
+ <span class="price-type">&#8377; 450</span> 
+</div><span></span></span></div>
+  </div>
+  <div class="menu-section-desc">Fried milk dumpling,
+cardamom, flavoured sugar syrup</div> 
+  <div class="addons">
+   
+   
+  </div>
+</div>
+</div><div>
+<div class="menu-image"><img src="" width="471" height="237"></div>
+ <div class="menu-section-item">
+  <div class="menu-section-item-info">
+   <div class="menu-section-name">Moong Dal Halwa</div>
+   <div class="menu-section-price"><span class="price"><div class="pricesec">
+<span class="price-mulitple"><span class="multiple-pricesec"> <span></span> <span class="dash">-</span></span> </span>
+ <span class="price-type">&#8377; 450</span> 
+</div><span></span></span></div>
+  </div>
+  <div class="menu-section-desc">Ground lentil, clarified butter,
+nuts, cardamom</div> 
+  <div class="addons">
+   
+   
+  </div>
+</div>
+</div><div>
+<div class="menu-image"><img src="" width="471" height="237"></div>
+ <div class="menu-section-item">
+  <div class="menu-section-item-info">
+   <div class="menu-section-name">Rasmalai</div>
+   <div class="menu-section-price"><span class="price"><div class="pricesec">
+<span class="price-mulitple"><span class="multiple-pricesec"> <span></span> <span class="dash">-</span></span> </span>
+ <span class="price-type">&#8377; 450</span> 
+</div><span></span></span></div>
+  </div>
+  <div class="menu-section-desc">Poached milk dumplings,
+cardamom,fron milk</div> 
+  <div class="addons">
+   
+   
+  </div>
+</div>
+</div><div>
+<div class="menu-image"><img src="" width="471" height="237"></div>
+ <div class="menu-section-item">
+  <div class="menu-section-item-info">
+   <div class="menu-section-name">Seasonal Sliced local Fruits</div>
+   <div class="menu-section-price"><span class="price"><div class="pricesec">
+<span class="price-mulitple"><span class="multiple-pricesec"> <span></span> <span class="dash">-</span></span> </span>
+ <span class="price-type">&#8377; 500</span> 
+</div><span></span></span></div>
+  </div>
+  <div class="menu-section-desc">Selection of locally sourced fruits
+Vitamin C | folate | potassium</div> 
+  <div class="addons">
+   
+   
+  </div>
+</div>
+</div><div>
+<div class="menu-image"><img src="" width="471" height="237"></div>
+ <div class="menu-section-item">
+  <div class="menu-section-item-info">
+   <div class="menu-section-name">Callebaut Chocolate Mousse</div>
+   <div class="menu-section-price"><span class="price"><div class="pricesec">
+<span class="price-mulitple"><span class="multiple-pricesec"> <span></span> <span class="dash">-</span></span> </span>
+ <span class="price-type">&#8377; 500</span> 
+</div><span></span></span></div>
+  </div>
+  <div class="menu-section-desc">Fresh fruits, almond crumble,
+roasted hazelnuts</div> 
+  <div class="addons">
+   
+   
+  </div>
+</div>
+</div><div>
+<div class="menu-image"><img src="" width="471" height="237"></div>
+ <div class="menu-section-item">
+  <div class="menu-section-item-info">
+   <div class="menu-section-name">Sticky Date Pudding</div>
+   <div class="menu-section-price"><span class="price"><div class="pricesec">
+<span class="price-mulitple"><span class="multiple-pricesec"> <span></span> <span class="dash">-</span></span> </span>
+ <span class="price-type">&#8377; 450</span> 
+</div><span></span></span></div>
+  </div>
+  <div class="menu-section-desc">Butterscotch sauce</div> 
+  <div class="addons">
+   
+   
+  </div>
+</div>
+</div><div>
+<div class="menu-image"><img src="" width="471" height="237"></div>
+ <div class="menu-section-item">
+  <div class="menu-section-item-info">
+   <div class="menu-section-name">Classic Baked Cheese Cake Slice</div>
+   <div class="menu-section-price"><span class="price"><div class="pricesec">
+<span class="price-mulitple"><span class="multiple-pricesec"> <span></span> <span class="dash">-</span></span> </span>
+ <span class="price-type">&#8377; 450</span> 
+</div><span></span></span></div>
+  </div>
+  <div class="menu-section-desc">Berry coulis</div> 
+  <div class="addons">
+   
+   
+  </div>
+</div>
+</div><div>
+<div class="menu-image"><img src="" width="471" height="237"></div>
+ <div class="menu-section-item">
+  <div class="menu-section-item-info">
+   <div class="menu-section-name">Ice Cream</div>
+   <div class="menu-section-price"><span class="price"><div class="pricesec">
+<span class="price-mulitple"><span class="multiple-pricesec"> <span></span> <span class="dash">-</span></span> </span>
+ <span class="price-type">&#8377; 450</span> 
+</div><span></span></span></div>
+  </div>
+  <div class="menu-section-desc">Chocolate | vanilla | strawberry</div> 
+  <div class="addons">
+   
+   
+  </div>
+</div>
+</div> </div></div>  </div></div>
+</div>  <div class="menu-section-box" data-name="Beverage">
+<div class="menu-main-desc-title">
+<div class="menu-main-title">Beverage</div>
+<div class="menu-disclaimer"> 
+6:00 am to 11:00 pm</div>
+</div>
+<div class="menu-section-box-wrap"><div class="menu-section-subtitle">Beverage</div>
+<div class="section-main-description">6:00－11:00 </div>
+  <div class="menu-section-list">    <div class="menu-section-list-wrap"><div class="uk-grid-collapse uk-child-width-1-2@s uk-grid" uk-grid="" uk-height-match=".menu-section-item"><div>
+<div class="menu-image"><img src="" width="471" height="237"></div>
+ <div class="menu-section-item">
+  <div class="menu-section-item-info">
+   <div class="menu-section-name">Home Made Masala Chai</div>
+   <div class="menu-section-price"><span class="price"><div class="pricesec">
+<span class="price-mulitple"><span class="multiple-pricesec"> <span></span> <span class="dash">-</span></span> </span>
+ <span class="price-type">&#8377; 275</span> 
+</div><span></span></span></div>
+  </div>
+  <div class="menu-section-desc"></div> 
+  <div class="addons">
+   
+   
+  </div>
+</div>
+</div><div>
+<div class="menu-image"><img src="" width="471" height="237"></div>
+ <div class="menu-section-item">
+  <div class="menu-section-item-info">
+   <div class="menu-section-name">South Indian Filiter Coffee</div>
+   <div class="menu-section-price"><span class="price"><div class="pricesec">
+<span class="price-mulitple"><span class="multiple-pricesec"> <span></span> <span class="dash">-</span></span> </span>
+ <span class="price-type">&#8377; 275</span> 
+</div><span></span></span></div>
+  </div>
+  <div class="menu-section-desc"></div> 
+  <div class="addons">
+   
+   
+  </div>
+</div>
+</div><div>
+<div class="menu-image"><img src="" width="471" height="237"></div>
+ <div class="menu-section-item">
+  <div class="menu-section-item-info">
+   <div class="menu-section-name">Hot Chocolate</div>
+   <div class="menu-section-price"><span class="price"><div class="pricesec">
+<span class="price-mulitple"><span class="multiple-pricesec"> <span></span> <span class="dash">-</span></span> </span>
+ <span class="price-type">&#8377; 325</span> 
+</div><span></span></span></div>
+  </div>
+  <div class="menu-section-desc"></div> 
+  <div class="addons">
+   
+   
+  </div>
+</div>
+</div><div>
+<div class="menu-image"><img src="" width="471" height="237"></div>
+ <div class="menu-section-item">
+  <div class="menu-section-item-info">
+   <div class="menu-section-name">Freshly Brewed Tea</div>
+   <div class="menu-section-price"><span class="price"><div class="pricesec">
+<span class="price-mulitple"><span class="multiple-pricesec"> <span></span> <span class="dash">-</span></span> </span>
+ <span class="price-type">&#8377; 275</span> 
+</div><span></span></span></div>
+  </div>
+  <div class="menu-section-desc">English, Assam, Darjeeling, Earl Grey, Green</div> 
+  <div class="addons">
+   
+   
+  </div>
+</div>
+</div><div>
+<div class="menu-image"><img src="" width="471" height="237"></div>
+ <div class="menu-section-item">
+  <div class="menu-section-item-info">
+   <div class="menu-section-name">Freshly Brewed Coffee</div>
+   <div class="menu-section-price"><span class="price"><div class="pricesec">
+<span class="price-mulitple"><span class="multiple-pricesec"> <span></span> <span class="dash">-</span></span> </span>
+ <span class="price-type">&#8377; 275</span> 
+</div><span></span></span></div>
+  </div>
+  <div class="menu-section-desc">Cappuccino, Café Latte, Espresso, American</div> 
+  <div class="addons">
+   
+   
+  </div>
+</div>
+</div><div>
+<div class="menu-image"><img src="" width="471" height="237"></div>
+ <div class="menu-section-item">
+  <div class="menu-section-item-info">
+   <div class="menu-section-name">Chilled Juices</div>
+   <div class="menu-section-price"><span class="price"><div class="pricesec">
+<span class="price-mulitple"><span class="multiple-pricesec"> <span></span> <span class="dash">-</span></span> </span>
+ <span class="price-type">&#8377; 300</span> 
+</div><span></span></span></div>
+  </div>
+  <div class="menu-section-desc">Apple, cranberry, tomato, grape, guava</div> 
+  <div class="addons">
+   
+   
+  </div>
+</div>
+</div><div>
+<div class="menu-image"><img src="" width="471" height="237"></div>
+ <div class="menu-section-item">
+  <div class="menu-section-item-info">
+   <div class="menu-section-name">Fresh Lime water or Soda</div>
+   <div class="menu-section-price"><span class="price"><div class="pricesec">
+<span class="price-mulitple"><span class="multiple-pricesec"> <span></span> <span class="dash">-</span></span> </span>
+ <span class="price-type">&#8377; 300</span> 
+</div><span></span></span></div>
+  </div>
+  <div class="menu-section-desc"></div> 
+  <div class="addons">
+   
+   
+  </div>
+</div>
+</div><div>
+<div class="menu-image"><img src="" width="471" height="237"></div>
+ <div class="menu-section-item">
+  <div class="menu-section-item-info">
+   <div class="menu-section-name">Sparkling Water</div>
+   <div class="menu-section-price"><span class="price"><div class="pricesec">
+<span class="price-mulitple"><span class="multiple-pricesec"> <span></span> <span class="dash">-</span></span> </span>
+ <span class="price-type">&#8377; 400</span> 
+</div><span></span></span></div>
+  </div>
+  <div class="menu-section-desc"></div> 
+  <div class="addons">
+   
+   
+  </div>
+</div>
+</div><div>
+<div class="menu-image"><img src="" width="471" height="237"></div>
+ <div class="menu-section-item">
+  <div class="menu-section-item-info">
+   <div class="menu-section-name">Mineral Water</div>
+   <div class="menu-section-price"><span class="price"><div class="pricesec">
+<span class="price-mulitple"><span class="multiple-pricesec"> <span></span> <span class="dash">-</span></span> </span>
+ <span class="price-type">&#8377; 100</span> 
+</div><span></span></span></div>
+  </div>
+  <div class="menu-section-desc"></div> 
+  <div class="addons">
+   
+   
+  </div>
+</div>
+</div> </div></div>  </div></div>
+</div>  
+</div>
+</div>
+
+</div></div>
+</div>
+</div>
+   
+   <!-- Footer Section --> 
+   <div id="note" class="footer-main">
+ <div class="uk-container">
+  <footer class="footer-warp"> 
+    <div class="hotel_name">JW Kitchen</div>
+    <div class="footer-both-section uk-flex uk-flex-between">
+      <div class="footer-con-information">
+        <div class="hotel-info-sub-title">Address</div>
+        <div class="hotel-adddress"> <span class="hotel_add"> <span class="street-address">JW Marriott Bengaluru, 24/1, Vittal Mallya Rd, KG Halli, Shanthala Nagar, Ashok Nagar,</span><br> <span class="locality">Bangalore</span>, <span class="f-address"> <span class="region">Karnataka</span> <span>560001</span> </span></span> </div>
+      </div>
+      <div class="footer-con-information">
+        <div class="hotel-info-sub-title">Contact Us</div>
+      
+        <div class="hotel-info-content res-numb rf">Inquiries: <a href="tel:8884494037" target="_self" data-autodatalayer="" onclick="pushToGtmRenderByDom(this)" data-msevent="calls" data-mscategory="phone number click" data-msaction="click"> <span class="formslable" aria-hidden="true">call to- JW Kitchen</span>8884494037</a></div>
+<div class="hotel-info-content res-numb ef">Email: <a href="mailto:jw.blrjw.jwkitchen@marriotthotels.com" target="_self" data-autodatalayer="" onclick="pushToGtmRenderByDom(this)" data-msevent="email" data-mscategory="email address click" data-msaction="click"><span class="formslable" aria-hidden="true">JW Kitchen - jw.blrjw.jwkitchen@marriotthotels.com</span>jw.blrjw.jwkitchen@marriotthotels.com</a></div>
+        <div class="social-media"> <div class="social-media-wrap footer-box"><ul> <li> <a tabindex="0" class="facebook" target="_blank" href="https://www.facebook.com/JWMarriottHotelBengaluru" rel="noopener"><span class="mim-icon-facebook icon-s" aria-hidden="true"></span><span class="sr-only">Facebook</span> </a> </li> <li> <a tabindex="0" class="twitter" target="_blank" href="https://twitter.com/jwmarriottblr" rel="noopener"><span class="mim-icon-twitter icon-s" aria-hidden="true"></span><span class="sr-only">Twitter</span> </a> </li> <li> <a tabindex="0" class="instagram" target="_blank" href="https://www.instagram.com/jwmarriottblr/?hl=en" rel="noopener"><span class="mim-icon-instagram icon-s" aria-hidden="true"></span><span class="sr-only">Instagram</span> </a> </li></ul></div></div>
+      </div>
+      <div class="footer-hours-information">
+        <div class="hotel-info-sub-title">Hours</div>
+        <div class="hour-wrp-info dynamiccomponenteditenable" data-id='261905' data-editbuttontext='' data-editable='True'>
+<ul>
+	<li>BREAKFAST- 6:00&nbsp;AM -11:00 AM</li>
+	<li>LUNCH- 12:30&nbsp;PM - 3:30&nbsp; PM&nbsp;</li>
+	<li>SUNDAY BRUNCH-&nbsp;12:30&nbsp;PM - 3:30&nbsp; PM&nbsp;</li>
+	<li>DINNER- 7:00 PM - 11:00 PM&nbsp;</li>
+</ul>
+
+</div>
+
+      </div>
+    </div> 
+    <div class="footer-nav uk-flex">
+      <div class="copy-rights">© 2025 All Rights Reserved.</div>
+      <div class="pop-link">
+
+  <ul class="pop-link-list">
+     
+      <li class="dynamiccomponenteditenable" data-id='261879' data-editbuttontext='' data-editable='True'><a class="nav" href="https://www.jwkitchenbengaluru.com/accessibility" rel="noopener">Accessibility</a> </li>
+     
+      <li class="dynamiccomponenteditenable" data-id='261880' data-editbuttontext='' data-editable='True'><a class="nav" href="https://www.marriott.com/about/privacy.mi" rel="noopener" target="_blank">Privacy Center</a> </li>
+     
+      <li class="dynamiccomponenteditenable" data-id='261882' data-editbuttontext='' data-editable='True'><a class="nav" href="https://www.jwkitchenbengaluru.com/site-map" rel="noopener">Site Map</a> </li>
+<li class="l-universal-footer-link" id="teconsent"></li>
+  </ul>
+</div>
+
+    </div>
+   <div class="powered-statement"><span><a href="https://mgscloud.marriott.com/common/sales-mktg-and-rev-mgmt/ecommerce/marriott-digital-services" target="_blank" rel="nofollow">Powered by MDS</a></span></div>
+
+
+
+</footer>
+ </div>
+</div>
+<link rel="icon" href="https://www.jwkitchenbengaluru.com/favicon.ico">
+<!-- 
+
+<link rel="shortcut icon" href="https://www.jwkitchenbengaluru.com/resourcefiles/OtherImages/jw-kitchen-favicon.png" class="dynamiccomponenteditenable" data-Id='261947' data-editbuttontext='' data-Editable='True' >
+
+ -->
+<div class="footer-sticky">
+  <div class="footer-sticky-wrap">
+  	<div class="footer-desk">
+		<div class="open-hours">
+			
+			<span class="now-open dynamiccomponenteditenable" data-id='261951' data-editbuttontext='' data-editable='True'>Open/Close Time</span>
+			
+			<span class="now-hours dynamiccomponenteditenable" data-id='261951' data-editbuttontext='' data-editable='True'>6:30 AM to 11:00 PM</span>
+		</div>
+		<div class="footer-reserv">
+			
+			<span class="call-reser dynamiccomponenteditenable" data-id='261951' data-editbuttontext='' data-editable='True'>Reservations:</span>
+			<a href="tel:8884494037" target="_blank" rel="nofollow">8884494037</a>
+		</div>
+</div>
+   <!-- -->
+    <div class="footer-mobile">
+      <ul class="mob-link-list">
+     		
+      	<li class="dynamiccomponenteditenable" data-id='261883' data-editbuttontext='' data-editable='True'>
+                  <a class="nav" href="#modal-full" uk-toggle="" rel="noopener">
+          Hours</a> </li>
+     		
+      	<li class="dynamiccomponenteditenable" data-id='261886' data-editbuttontext='' data-editable='True'>
+            
+        <a class="nav reserve-btn reserve-btn-click custom_click_track" href="https://www.eat2eat.com/SWBooking/Pages/Reservation.aspx?relId=MgA2ADgAMgA=&amp;lang=0&amp;pro=0" target="_blank" rel="noopener" data-custom_click_track_value="PinnedBar | Dining Res Click | External | event452">
+          Reserve</a> </li>
+     		
+      	<li class="dynamiccomponenteditenable" data-id='261884' data-editbuttontext='' data-editable='True'>
+            
+        <a class="nav custom_click_track" href="https://www.jwkitchenbengaluru.com/our-menus" rel="noopener" data-custom_click_track_value="PinnedBar | Menu Views | Internal | event456">
+          Menus</a> </li>
+     		
+      	<li class="dynamiccomponenteditenable" data-id='261885' data-editbuttontext='' data-editable='True'>
+                  <a class="nav" href="https://www.jwkitchenbengaluru.com/contact-location" rel="noopener">
+          Location</a> </li>
+  		</ul>
+    </div>
+  </div>
+</div>
+
+<div id="modal-full" class="uk-modal-full uk-modal mobile-hours-pop" uk-modal="">
+	<div class="uk-modal-dialog uk-flex uk-flex-center uk-flex-middle">
+		<div class="mob-hours-listing">
+			<button class="uk-modal-close-full uk-close-large uk-icon uk-close" type="button" uk-close=""><svg width="20" height="20" viewbox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" data-svg="close-large"><line fill="none" stroke="#000" stroke-width="1.4" x1="1" y1="1" x2="19" y2="19"></line><line fill="none" stroke="#000" stroke-width="1.4" x1="19" y1="1" x2="1" y2="19"></line></svg><span class="sr-only">Close</span></button>
+			<div class="con-hours">
+				<div class="con-title"><h2>Hours</h2></div>
+				<div class="con-info con-hours-detail">
+					<ul>
+	<li>BREAKFAST- 6:00&nbsp;AM -11:00 AM</li>
+	<li>LUNCH- 12:30&nbsp;PM - 3:30&nbsp; PM&nbsp;</li>
+	<li>SUNDAY BRUNCH-&nbsp;12:30&nbsp;PM - 3:30&nbsp; PM&nbsp;</li>
+	<li>DINNER- 7:00 PM - 11:00 PM&nbsp;</li>
+</ul>
+
+				</div>
+												<div class="con-delivery">
+					
+					<div class="con-title"><h2>Delivery Hours</h2></div>
+					<div class="con-info con-delivery-hours">
+						<ul>
+	<li>12 PM - 9 PM</li>
+</ul>
+
+					</div>
+					
+					<div class="con-delivery-btn">
+						<a href="https://www.whatsapp.com/catalog/918884494035/?app_absent=0" target="_blank" rel="nofollow">Order Now</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+ 
+   <!-- Footer END--> 
+    <script id="msCookiePolicy" class="dynamiccomponenteditenable" data-id='261952' data-editbuttontext='' data-editable='True'>
+	var CookieBanner = null;	
+	CookieBanner = {
+		moveToTop_msCookieBanner: function() {
+			if (document.getElementById("msCookieBanner"))
+				if (window.getComputedStyle(document.getElementById("msCookieBanner"), null).getPropertyValue('position') == 'fixed') {
+					var elems = document.body.getElementsByTagName("*");
+					var len = elems.length;
+					for (var i = 0; i < len; i++) {
+						var condition1 = false;
+						var condition2 = false;
+						try {
+							if (window.getComputedStyle(elems[i], null).getPropertyValue('position') == 'fixed') {
+								condition1 = true;
+							} else condition1 = false;
+							if (elems[i].className.indexOf('fixreservationbottom') > -1) {
+								condition2 = true;
+							} else condition2 = false;
+							if ((condition1 == true || condition2 == true) && elems[i].id != "msCookieBanner") {
+								elems[i].className += " pushItDown";
+							}
+						} catch (err) {
+							/* document.getElementById("demo").innerHTML = err.message; */
+						}
+					}
+				}
+		},
+		hideCookieBanner: function() {
+			var newClasss = "";
+			var cname = "msCookieBanner";
+			var cvalue = "accepted";
+			var exdays = 365;
+			var d = new Date();
+			d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
+			var expires = "expires=" + d.toUTCString();
+			document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+			var elem = document.getElementById('msCookieBanner');
+			elem.parentNode.removeChild(elem);
+			var elems = document.body.getElementsByTagName("*");
+			var len = elems.length;
+			for (var i = 0; i < len; i++) {
+				if (elems[i].className.indexOf('pushItDown') > -1) {
+					newClasss = elems[i].className.replace('pushItDown', '');
+					elems[i].className = newClasss;
+				}
+			}
+		},
+		check_and_appendCookieBanner: function() {
+			var userCookiePreference = "noanswer";
+			var cname = "msCookieBanner";
+			var name = cname + "=";
+			var ca = document.cookie.split(';');
+			for (var i = 0; i < ca.length; i++) {
+				var c = ca[i];
+				while (c.charAt(0) == ' ') {
+					c = c.substring(1);
+				}
+				if (c.indexOf(name) == 0) {
+					userCookiePreference = c.substring(name.length, c.length);
+					i = ca.length + 1;
+				}
+			}
+			if (userCookiePreference != "accepted") {
+				var iDiv;
+				var theParent = document.getElementsByTagName('body')[0];
+				if (document.getElementById('msCookieBanner')) {
+					iDiv = document.getElementById('msCookieBanner');
+				} else {
+					iDiv = document.createElement('div');
+					iDiv.id = 'msCookieBanner';
+					theParent.insertBefore(iDiv, theParent.firstChild);
+				}
+				iDiv.className = 'msCookieBanner';
+				iDiv.innerHTML = '<div class="left"> <span>OUR SITE USES COOKIES.</span> <span>By continuing to use our site you are agreeing to our <a href="https://www.marriott.com/about/privacy.mi" target="_blank"> cookie policy</a></span>.</div><div class="right"><button onclick="window.CookieBanner.hideCookieBanner();">Accept &amp; Close</button></div><div style="clear:both"></div>';
+				var styles = '#msCookieBanner {font-family:Arial, Helvetica, sans-serif; font-size:13px; line-height:48px; box-sizing:border-box; height:48px; width:100%; position:fixed;top:0px; z-index:1001}';
+				styles += ' #msCookieBanner {background-color:#000000;color:#FFFFFF; border-top:2px solid #FFFFFF; border-bottom:2px solid #FFFFFF;}';
+				styles += ' #msCookieBanner .left {width:75%;display:inline-block; text-align:center;}';
+				styles += ' #msCookieBanner .right {width:25%;display:inline-block;}';
+				styles += ' #msCookieBanner .right button {border:none;padding:5px;background-color:#FFFFFF;color:#000000;border: solid 1px #fff;cursor: pointer;}';
+				styles += ' #msCookieBanner .right button:focus, #msCookieBanner .right button:hover {background: #000;color: #fff;}';
+				styles += ' #msCookieBanner a, #msCookieBanner a:link, #msCookieBanner a:visited {color:#fff; border-bottom:dashed 1px #fff; }';
+				styles += ' #msCookieBanner a:hover, #msCookieBanner a:focus {color:#fff; border-bottom:solid 1px #fff; }';
+				styles += ' .pushItDown {margin-top: 48px !important; }';
+				var css = document.createElement('style');
+				css.type = 'text/css';
+				if (css.styleSheet) css.styleSheet.cssText = styles;
+				else css.appendChild(document.createTextNode(styles));
+				document.getElementsByTagName("head")[0].appendChild(css);
+			}
+		}
+	};
+	var isScroll = "false";
+window.addEventListener('scroll', function() {
+	if(window.pageYOffset > 50 && isScroll == "false"){
+		isScroll = "true";
+	 	CookieBanner.check_and_appendCookieBanner();
+		CookieBanner.moveToTop_msCookieBanner();
+	}
+});	
+</script>
+
+  </div>  
+  <script>
+document.write(unescape("%3Cscript src='https://www.jwkitchenbengaluru.com/dynamic/js/with-image.aspx?version=4072025122744' type='text/javascript'%3E%3C/script%3E"));</script>
+  
+  
+ <input type='hidden' id='hdnparentpageid' value='0'><input type='hidden' id='hdnpageid' value='294944'><input type='hidden' id='hdntemplatename' value='With-Image.aspx'><input type='hidden' id='hdnpagealias' value='our-menus'><input type='hidden' id='hdnclientaccess' value='0'><input type='hidden' id='hdndevicetype' value='desktop'><input type='hidden' id='hdntabletdetection' value='2'><input type='hidden' id='hdnmobiledetection' value='2'><input type='hidden' id='hdnismobile' value='0'><input type='hidden' id='hdnclientmoderation' value=''><input type='hidden' id='hdnVersionControlPlugin' value='0'><input type='hidden' id='hdndifferenttabletcontent' value='0'><input type='hidden' id='hdndifferentmobilecontent' value='0'><input type='hidden' id='hdnusertypeid' value=''><input type='hidden' id='hdnmilestoneSiteID' value='11770'><input type='hidden' id='Pod-ID' value='10'><input type='hidden' id='hdnlanguagepages' value='{"languagepages":[{"en": "https://www.jwkitchenbengaluru.com/our-menus"}]}'><input type='hidden' id='hdnCFDeviceType' value='desktop'><input type='hidden' id='hdnIsClientAdmin' value='false'><input type='hidden' id='hdnIsEnableWorkFlowModeration' value='False'><input type='hidden' id='hdnMainRequestURL' value='https://www.jwkitchenbengaluru.com/our-menus'><input type='hidden' id='hdnIsDamEnabled' value='False'><input type='hidden' id='hdnIsCopyPageEnabled' value='False'><input type='hidden' id='hdncacheFileName' value='key000E2449106AE38698215FE2EBBA0FF8BD26086BA071E81155A4F1F8C5FF589D#2025-04-14T12--32--24'><input type='hidden' id='hdnmemberemail' value=''><input type='hidden' id='hdnmembername' value=''><input type='hidden' id='hdnexternalpage' value='0'><input type='hidden' id='hdnpagestatus' value='1'><input type='hidden' id='hdnportalhotelid' value=''><input type='hidden' id='hdnportaldestinationid' value=''><input type='hidden' id='hdnmilestoneSiteURL' value='https://www.jwkitchenbengaluru.com/'><input id="hddevicetype" value="desktop" type="hidden"><script id="msLoadDefer" type="text/javascript">
+var allImgTags = null;
+var eleImg = null;
+allImgTags = document.getElementsByTagName("img");
+function imgInViewport(el) {
+ var top = el.offsetTop;
+ var left = el.offsetLeft;
+ var width = el.offsetWidth;
+ var height = el.offsetHeight;
+
+ while(el.offsetParent) {
+ el = el.offsetParent;
+ top += el.offsetTop;
+ left += el.offsetLeft;
+ }
+
+ return (
+ top < (window.pageYOffset + window.innerHeight) &&
+ left < (window.pageXOffset + window.innerWidth) &&
+ (top + height) > window.pageYOffset &&
+ (left + width) > window.pageXOffset
+ );
+}
+setTimeout(function(){
+	
+	for(i=0;i<allImgTags.length;i++)
+	{
+		 if (allImgTags[i].getAttribute('data-mimg'))
+			{
+			allImgTags[i].setAttribute('src',allImgTags[i].getAttribute('data-mimg'));
+			allImgTags[i].removeAttribute("data-mimg");
+			}
+		 
+		
+	}
+	
+	},3000);
+window.onscroll = function() {
+	
+	for(i=0;i<allImgTags.length;i++)
+	{
+		 if (allImgTags[i].getAttribute('data-mimg')&& imgInViewport(allImgTags[i]) )
+			{
+			allImgTags[i].setAttribute('src',allImgTags[i].getAttribute('data-mimg'));
+			allImgTags[i].removeAttribute("data-mimg");
+			}
+		 
+		
+	}
+	
+}
+</script><script id="autoAnalyticsManager" src="https://www.jwkitchenbengaluru.com/milestone_common/autoanalyticsmanager_marriott.js"></script><input type="hidden" value="cache version"></body>
+</html>
+
